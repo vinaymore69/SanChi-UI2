@@ -274,10 +274,19 @@ img{
 .item5 { grid-row: span 10; }
 .item6 { grid-row: span 10; }
 .item7 { grid-row: span 12; }
-.item8 { grid-row: span 15; }
+.item8 { grid-row: span 12; }
 .item9 { grid-row: span 8; }
 .item10 { grid-row: span 12; }
-
+.item11 { grid-row: span 15;  }
+.item12 { grid-row: span 17; }
+.item13 { grid-row: span 10; }
+.item14 { grid-row: span 17; }
+.item15 { grid-row: span 10; }
+.item16 { grid-row: span 10; }
+.item17 { grid-row: span 12; }
+.item18 { grid-row: span 15; }
+.item19 { grid-row: span 8; }
+.item20 { grid-row: span 12; }
 
 
 #lightbox {
