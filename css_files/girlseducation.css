@@ -88,6 +88,7 @@ path {
     flex-direction: column;
     gap: 2vw;
 }
+
 .domain-short-info-left > p{
     font-size: 1.2vw;
     font-weight: 400;
@@ -114,6 +115,7 @@ path {
     justify-content: space-around;
     align-items: flex-start;
 }
+
 .domain-sub-heading-sticky{
     position: -webkit-sticky;
     position: sticky !important;

@@ -21,14 +21,14 @@ const content = {
                         These efforts ensure that <strong>students</strong> have the tools they need to continue their
                         education without
                         hindrance, fostering a culture of learning and empowerment.`,
-    content7: `The initiative also raises awareness about the importance of education in transforming lives. By
-                        organizing donation drives, community engagement activities, and volunteer efforts, we strive to
-                        create a <strong>Supportive</strong> environment where every child has an equal opportunity to
-                        learn and thrive.
-                        Your participation in this noble cause can bring a <strong><span class="tilted-smiley">:&#41;
-                            </span>
-                            Smile</strong> to a student's face and contribute to
-                        building a more educated and <strong>Progressive Society.</strong>`,
+    // content7: `The initiative also raises awareness about the importance of education in transforming lives. By
+    //                     organizing donation drives, community engagement activities, and volunteer efforts, we strive to
+    //                     create a <strong>Supportive</strong> environment where every child has an equal opportunity to
+    //                     learn and thrive.
+    //                     Your participation in this noble cause can bring a <strong><span class="tilted-smiley">:&#41;
+    //                         </span>
+    //                         Smile</strong> to a student's face and contribute to
+    //                     building a more educated and <strong>Progressive Society.</strong>`,
     content8: `Ensuring underprivileged students receive the education and resources they deserve to shape a brighter
                 future.`,
     content9: `Coutribute To Our Journey `,
@@ -70,11 +70,39 @@ const content = {
                         innovation and inclusivity, we pave the way for a society that thrives on progress,
                         sustainability, and equality.`,
     content20: `Our qualified and experienced team`,
-    content21: `About Team: team with a broad range of expertise. We are committed to
-                        providing high quality and compassionate mental health support to meet your needs.`,
+    content21: ` 01: Prof. Anjum & 02: Prof. Arpit <br>
+    Electronics and Telecommunication Department <br>
+    Teaching Experience of 20 years`,
     content22: `Resources from us`,
     content23: `Transforming Lives, Bridging Gaps, and Creating Opportunities for a Brighter Tomorrow.`,
     content24: `Join Us and Be a Part of Her Journey to Impact!`,
+
+
+
+
+    
+
+// menu english
+content101:`Choose Language`,
+content102:`Resources`,
+content103:`Audio Books`,
+content104:`Video`,
+content105:`Notes Download`,
+content106:`Close`,
+content107:`Home`,
+content108:`About`,
+content109:`Language`,
+content110:`Contact`,
+content111:`Resources`,
+content112:`Dashboard`,
+content113:`Login`,
+content114:`Home`,
+content115:`About`,
+content116:`Languages`,
+content117:`Contact`,
+content118:`Resources`,
+
+// menu end
   },
   hindi: {
     content1: `अनप्रिव्हिलेज्ड स्टुडंट वेलफेअर आशा आणि संधी वाढवते, प्रत्येक मुलाला शिकण्यासाठी साधने आहेत याची खात्री करून
@@ -96,14 +124,14 @@ const content = {
                         हे प्रयत्न हे सुनिश्चित करतात की <strong>विद्यार्थ्यांकडे</strong> त्यांच्याकडे चालू ठेवण्यासाठी आवश्यक असलेली साधने आहेत
                         शिक्षणाशिवाय
                         अडथळा, शिक्षण आणि सक्षमीकरणाची संस्कृती वाढवणे.`,
-    content7: `हा उपक्रम जीवनात परिवर्तन घडवून आणण्यासाठी शिक्षणाच्या महत्त्वाबद्दल जागरूकता वाढवतो. द्वारे
-                        देणगी मोहिमेचे आयोजन, सामुदायिक सहभागाचे उपक्रम आणि स्वयंसेवक प्रयत्न, यासाठी आम्ही प्रयत्नशील आहोत
-                        एक <strong>आश्वासक</strong> वातावरण तयार करा जिथे प्रत्येक मुलाला समान संधी असेल
-                        शिका आणि भरभराट करा.
-                        या उदात्त कार्यात तुमचा सहभाग <strong><span class="tilted-smiley">:&#41;
-                            </span>
-                            विद्यार्थ्याच्या चेहऱ्यावर हसू</strong> आणि त्यात योगदान द्या
-                        अधिक शिक्षित आणि <strong>प्रगतीशील समाज</strong> तयार करणे`,
+    // content7: `हा उपक्रम जीवनात परिवर्तन घडवून आणण्यासाठी शिक्षणाच्या महत्त्वाबद्दल जागरूकता वाढवतो. द्वारे
+    //                     देणगी मोहिमेचे आयोजन, सामुदायिक सहभागाचे उपक्रम आणि स्वयंसेवक प्रयत्न, यासाठी आम्ही प्रयत्नशील आहोत
+    //                     एक <strong>आश्वासक</strong> वातावरण तयार करा जिथे प्रत्येक मुलाला समान संधी असेल
+    //                     शिका आणि भरभराट करा.
+    //                     या उदात्त कार्यात तुमचा सहभाग <strong><span class="tilted-smiley">:&#41;
+    //                         </span>
+    //                         विद्यार्थ्याच्या चेहऱ्यावर हसू</strong> आणि त्यात योगदान द्या
+    //                     अधिक शिक्षित आणि <strong>प्रगतीशील समाज</strong> तयार करणे`,
     content8: `वंचित विद्यार्थ्यांना उज्वल आकार देण्यासाठी त्यांना पात्र असलेले शिक्षण आणि संसाधने मिळतील याची खात्री करणे
                 भविष्य`,
     content9: `आमच्या प्रवासात सहकार्य करा`,
@@ -145,12 +173,40 @@ const content = {
                         नावीन्य आणि सर्वसमावेशकता, आम्ही प्रगतीच्या मार्गावर भरभराट करणाऱ्या समाजाचा मार्ग मोकळा करतो,
                         टिकाऊपणा आणि समानता.`,
     content20: `आमची पात्र आणि अनुभवी टीम`,
-    content21: `कार्यसंघाबद्दल: तज्ञांच्या विस्तृत श्रेणीसह कार्यसंघ. आम्ही वचनबद्ध आहोत
-                        तुमच्या गरजा पूर्ण करण्यासाठी उच्च दर्जाचे आणि दयाळू मानसिक आरोग्य समर्थन प्रदान करणे.`,
+    content21: `01: प्रो. अंजुम & 02: प्रो. अर्पित <br>
+    इलेक्ट्रॉनिक्स और दूरसंचार विभाग <br>
+    20 वर्षों का शिक्षण अनुभव`,
     content22: `आमच्याकडून संसाधने`,
     content23: `जीवन बदलणे, अंतर भरणे आणि उज्वल उद्यासाठी संधी निर्माण करणे.`,
     content24: `आमच्यात सामील व्हा आणि तिच्या प्रभावाच्या प्रवासाचा एक भाग व्हा!`,
     // content25: ``,
+
+
+
+
+
+
+    
+// menu hindi
+content101:`भाषा चुनें`,
+content102:`संसाधन`,
+content103:`ऑडियो पुस्तकें`,
+content104:`वीडियो`,
+content105:`नोट्स डाउनलोड`,
+content106:`बंद करें`,
+content107:`होम`,
+content108:`परिचय`,
+content109:`भाषा`,
+content110:`संपर्क`,
+content111:`संसाधन`,
+content112:`डैशबोर्ड`,
+content113:`लॉगिन`,
+content114:`होम`,
+content115:`परिचय`,
+content116:`भाषाएँ`,
+content117:`संपर्क`,
+content118:`संसाधन`,
+// menu end
   },
   marathi: {
     content1: `अनप्रिव्हिलेज्ड स्टुडंट वेलफेअर आशा आणि संधी वाढवते, प्रत्येक मुलाला शिकण्यासाठी साधने आहेत याची खात्री करते
@@ -172,14 +228,14 @@ const content = {
             हे प्रयत्न हे सुनिश्चित करतात की <strong>विद्यार्थ्यांकडे</strong> त्यांच्याकडे चालू ठेवण्यासाठी आवश्यक असलेली साधने आहेत
             शिक्षणाशिवाय
             अडथळा, शिक्षण आणि सक्षमीकरणाची संस्कृती वाढवणे.`,
-    content7: `हा उपक्रम जीवनात परिवर्तन घडवून आणण्यासाठी शिक्षणाच्या महत्त्वाविषयी जागरूकता वाढवतो. द्वारे
-            देणगी मोहिमेचे आयोजन, सामुदायिक सहभागाचे उपक्रम आणि स्वयंसेवक प्रयत्न, यासाठी आम्ही प्रयत्नशील आहोत
-            एक <strong>आश्वासक</strong> वातावरण तयार करा जिथे प्रत्येक मुलाला समान संधी असेल
-            शिका आणि भरभराट करा.
-            या उदात्त कार्यात तुमचा सहभाग <strong><span class="tilted-smiley">:&#41;
-                </span>
-                विद्यार्थ्याच्या चेहऱ्यावर हसू</strong> आणि त्यात योगदान द्या
-            अधिक शिक्षित आणि <strong>प्रगतीशील समाजाची निर्मिती.</strong>`,
+    // content7: `हा उपक्रम जीवनात परिवर्तन घडवून आणण्यासाठी शिक्षणाच्या महत्त्वाविषयी जागरूकता वाढवतो. द्वारे
+    //         देणगी मोहिमेचे आयोजन, सामुदायिक सहभागाचे उपक्रम आणि स्वयंसेवक प्रयत्न, यासाठी आम्ही प्रयत्नशील आहोत
+    //         एक <strong>आश्वासक</strong> वातावरण तयार करा जिथे प्रत्येक मुलाला समान संधी असेल
+    //         शिका आणि भरभराट करा.
+    //         या उदात्त कार्यात तुमचा सहभाग <strong><span class="tilted-smiley">:&#41;
+    //             </span>
+    //             विद्यार्थ्याच्या चेहऱ्यावर हसू</strong> आणि त्यात योगदान द्या
+    //         अधिक शिक्षित आणि <strong>प्रगतीशील समाजाची निर्मिती.</strong>`,
     content8: ` वंचित विद्यार्थ्यांना शिक्षण आणि संसाधने मिळतील याची खात्री करणे त्यांना उजळ आकार देण्यासाठी पात्र आहे
             भविष्य.`,
     content9: `आमच्या प्रवासासाठी सहकार्य करा`,
@@ -221,11 +277,37 @@ const content = {
                     नावीन्य आणि सर्वसमावेशकता, आम्ही अशा समाजाचा मार्ग मोकळा करतो जो प्रगतीच्या मार्गावर असतो,
                     शाश्वतता आणि समानता.`,
     content20: `आमची पात्र आणि अनुभवी टीम`,
-    content21: `कार्यसंघाविषयी: विस्तृत श्रेणीचे कौशल्य असलेला संघ. आम्ही वचनबद्ध आहोत
-                    तुमच्या गरजा पूर्ण करण्यासाठी उच्च दर्जाचे आणि दयाळू मानसिक आरोग्य समर्थन प्रदान करणे.`,
+    content21: ` 01: प्रो. अंजुम & 02: प्रो. अर्पित <br>
+    इलेक्ट्रॉनिक्स आणि दूरसंचार विभाग <br>
+    20 वर्षांचा अध्यापन अनुभव`,
     content22: 'आमच्याकडून संसाधने',
     content23: `जीवन बदलणे, अंतर भरणे आणि उज्वल उद्यासाठी संधी निर्माण करणे.`,
     content24: `आमच्याशी सामील व्हा आणि तिच्या प्रभावाच्या प्रवासाचा एक भाग व्हा!`,
+
+
+
+    
+
+// menu marathi
+content101:`भाषा निवडा`,
+content102:`संसाधने`,
+content103:`ऑडिओ पुस्तके`,
+content104:`व्हिडिओ`,
+content105:`नोट्स डाउनलोड`,
+content106:`बंद करा`,
+content107:`होम`,
+content108:`आमच्याबद्दल`,
+content109:`भाषा`,
+content110:`संपर्क`,
+content111:`संसाधने`,
+content112:`डॅशबोर्ड`,
+content113:`लॉगिन`,
+content114:`होम`,
+content115:`आमच्याबद्दल`,
+content116:`भाषा`,
+content117:`संपर्क`,
+content118:`संसाधने`,
+// menu end
   },
 };
 

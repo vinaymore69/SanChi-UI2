@@ -273,8 +273,12 @@ content: 'o ';
     transition: all 0.3s ease-in-out;
 }
 .animate1:hover{
-    transform: translateX(-2vw);
+    transform: translateX(-7vw);
     cursor: pointer;
+    -webkit-transform: translateX(-7vw);
+    -moz-transform: translateX(-7vw);
+    -ms-transform: translateX(-7vw);
+    -o-transform: translateX(-7vw);
 }
 
 #page3>#button2-content>#vission-content {
@@ -334,7 +338,7 @@ content: 'o ';
 #page3>#button2-content>#values-content {
     width: 40vw;
     margin-right: 5vw;
-    height: 18vw;
+    min-height: 18vw;
     background-color: #a1d99b8d;
     color: rgb(0, 0, 0);
     position: relative;
@@ -465,6 +469,7 @@ content: 'o ';
     }
 #about-directaccess-dropdown {
     margin-top: 3vw;
+    margin-right: 6vw;
     font-size: 1.4vw;
     width: 65vw;
     height:12vw;
@@ -545,6 +550,7 @@ content: 'o ';
     font-size: 3.5vw;
     width: 88vw;
     text-align: justify;
+    padding-right: 4vw;
 }
 #page3>#button2-content>h3  {   
     margin-top: 2vw;
@@ -552,16 +558,18 @@ content: 'o ';
 }
 #page3>#button2-content>p {
     
-    margin-top: -10vw;
+    margin-top: 10vw;
     font-size: 3vw;
     width: 70vw;
     text-align: justify;
 }
-
+#page3>#button2-content{
+    padding: 0vw;
+}
 
 #page3>#button2-content>#vission-content {
     width: 65vw;
-    height:30vw;
+    min-height:30vw;
     padding: 2vw 2vw;
 }
 
@@ -578,7 +586,7 @@ content: 'o ';
 }
 #page3>#button2-content>#mission-content {
     width: 65vw;
-    height:30vw;
+    min-height:30vw;
     padding: 2vw 2vw;
 }
 
@@ -596,9 +604,9 @@ content: 'o ';
 }
 
 #page3>#button2-content>#values-content {
-
+    position: relative;
     width: 65vw;
-    height:30vw;
+    min-height:30vw;
     padding: 2vw 2vw;
 }
 
@@ -680,4 +688,10 @@ content: 'o ';
 #page5{
     height: 45vh;
 }
+
+
+#aboutus-paragraph p {
+    padding-right: 6vw;
+}
+
 }

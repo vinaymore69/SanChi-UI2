@@ -371,6 +371,9 @@ html, body {
     padding: 1vw 5vw;
     
 }
+
+
+
 #footer-socials{
     display: flex;
     justify-content: space-between;
@@ -424,7 +427,9 @@ html, body {
 
 }
 #footer-description p{
-    font-size: 1.8vw;
+    font-size: 2.7vw;
+    text-align: center;
+    font-variant: small-caps;
     width: 95%;
     font-weight: 200;
 }
@@ -442,6 +447,8 @@ html, body {
     width: 10vw;
 
 }
+
+
 .group1,.group2{
     display: flex;
     justify-content: space-between;
@@ -467,6 +474,14 @@ html, body {
 .group2{
     border-left: solid thin #000000cd;
 }
+
+
+@media (max-width: 700px) {
+    #footer-top{
+        min-width: 0;
+    }
+      }
+
 
 @keyframes brand-scroll {
     from{
@@ -564,8 +579,8 @@ html, body {
     }
 
     #center h1 {
-        font-size: 18vw;
-        line-height: 18vw;
+        font-size: 12vw;
+        line-height: 14vw;
     }
     #page2{
         min-height: auto;
@@ -615,16 +630,109 @@ html, body {
         left: 73%;
 
     }   
+
+    #page6{
+        min-height: auto;
+    }
+
+    #page6 > #footer-top{
+        min-height: 20vh;
+    }
+    #footer-description p{
+        /* padding: 1vw 0vw; */
+        font-size: 6vw;
+    }
+    
+#footer-media i {   
+    font-size: 6vw;
+    cursor: pointer;
+}
+#footer-media::before{
+
+    content: "Follow us";
+    font-size: 4vw;
+    font-weight: 400;
+
+}
+#footer-socials{
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vw;
+}
+#footer-copyrights h4{
+    font-size: 3vw;
+    font-weight: 300;
+}
+#footer-links{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+#footer-links > a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 3vw;
 }
 
+#footer-down{
+    flex-direction: column;
+    gap: 2vw;
+    padding: 2vw;
+}
+.footer-down-image {
+    width: 15vw;
+}
 
+.group1,.group2{
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+    position: relative;
+    padding-top: 7vw;
+
+}
+.group1>h6{
+    font-size: 3vw;
+    font-weight: 500;
+    position:absolute;
+    top: 10%;
+    margin-left: 30%;
+    color: #000000cd;
+}
+.group2>h6{
+    font-size: 3vw;
+    font-weight: 500;
+    position:absolute;
+    top: 10%;
+    margin-left: 30%;
+    color: #000000cd;
+}
+
+.group2{
+    border-top: solid thin #000000cd;
+    border-left: none;
+    padding-top: 7vw;
+}
+.brand-heading{
+    align-self: flex-start;
+    font-size: 9.5vw;
+    margin-top: 10vw;
+    margin-bottom: 8vw;
+    margin-left: 5vw;
+}
+
+}
 
 @media (max-width:700px){
     #center h1 {
         margin-top: 5vw;
     }
     .scroll h1 {
-        font-size: 15vw;
+        font-size: 8vw;
     }
     .brand-images{
         width: 45vw;
@@ -637,18 +745,19 @@ html, body {
     }  
     .elem{
         height: 22vw;
+        padding-left: 8vw;
     }
     .elem h2 {
         font-size: 5vw;
-        width: 60%;
+        width: 80%;
         line-height: 9vw;
     }
     #page2-bottom>h1{
         font-weight: 500;
         width: 95%;
-        text-align: justify;
-        font-size: 8vw;
-        line-height: 5vh;
+        text-align: left;
+        font-size: 5vw;
+        line-height: 3vh;
     }
     #bottom-part2 {
         width: 80%;

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css_files/girlseducation.css" />
     <link rel="stylesheet" href="css_files/footer.css" />
     <link rel="stylesheet" href="css_files/language.css" />
+    <link rel="stylesheet" href="css_files/domainFooter.css" />
+    <link rel="stylesheet" href="css_files/domainsMobileView.css" />
     <!-- <link rel="stylesheet" href="css_files/gallery.css" /> -->
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.20/dist/lenis.css" />
     <link rel="stylesheet"
@@ -19,123 +21,128 @@
 
 <body>
     <div id="main">
-        <!-- languages section -->
-        <div id="languages-section">
-            <div id="closing" style="opacity: 0">
-                <span style="font-size: 100px" id="closing-span">&#10008;</span>
-            </div>
-            <div id="languages">
-                <h1>Choose Language</h1>
-                <div id="language">
-                    <h2 value="english" id="english-option">English</h2>
-                    <h2 value="hindi" id="hindi-option">हिंदी</h2>
-                    <h2 value="marathi" id="marathi-option">मराठी</h2>
-                </div>
-            </div>
+
+      
+        
+ <!-- languages section -->
+ <div id="languages-section">
+    <div id="closing" style="opacity: 0">
+        <span style="font-size: 100px" id="closing-span">&#10008;</span>
+    </div>
+    <div id="languages">
+        <h1 id="content101">Choose Language</h1>
+        <div id="language">
+            <h2 value="english" id="english-option">English</h2>
+            <h2 value="hindi" id="hindi-option">हिंदी</h2>
+            <h2 value="marathi" id="marathi-option">मराठी</h2>
         </div>
-        <!-- languages section end -->
+    </div>
+</div>
+<!-- languages section end -->
 
-        <!-- resources absolute page -->
-        <div id="nav-resources-sub-options">
-            <div id="nav-resources-div">
-                <h3>Resources</h3>
-            </div>
+<!-- resources absolute page -->
+<div id="nav-resources-sub-options">
+    <div id="nav-resources-div">
+        <h3 id="content102">Resources</h3>
+    </div>
 
-            <div id="nav-resources-links">
-                <h4>
-                    <a href="#"><span class="material-symbols-outlined">library_books</span>
-                        <span>Audio Books</span></a>
-                </h4>
-                <h4>
-                    <a href="#"><span class="material-symbols-outlined">video_library</span>
-                        <span>Video</span></a>
-                </h4>
-                <h4>
-                    <a href="#"><span class="material-symbols-outlined">download</span>
-                        <span>Notes Download</span></a>
-                </h4>
-            </div>
+    <div id="nav-resources-links">
+        <h4>
+            <a href="#"><span class="material-symbols-outlined">library_books</span>
+                <span id="content103">Audio Books</span></a>
+        </h4>
+        <h4>
+            <a href="#"><span class="material-symbols-outlined">video_library</span>
+                <span id="content104">Video</span></a>
+        </h4>
+        <h4>
+            <a href="#"><span class="material-symbols-outlined">download</span>
+                <span id="content105">Notes Download</span></a>
+        </h4>
+    </div>
 
-            <div id="nav-resources-closing">
-                <h4>
-                    <a href="#"><span class="material-symbols-outlined">close</span>
-                        <span>Close</span></a>
-                </h4>
-            </div>
-        </div>
-        <!-- resources absolute page end-->
+    <div id="nav-resources-closing">
+        <h4>
+            <a href="#"><span class="material-symbols-outlined">close</span>
+                <span id="content106">Close</span></a>
+        </h4>
+    </div>
+</div>
+<!-- resources absolute page end-->
 
-        <!-- Page 1 content -->
-        <div id="page1">
-            <!-- nav bar desktop -->
-            <nav>
+<!-- Page 1 content -->
+<div id="page1">
+    
+    <!-- nav bar desktop -->
+    <nav>
+        <a href="index.html">
+            <img src="images/vp-logo.png" alt="" id="nav-img" />
+        </a>
+        <div id="nav-part2">
+            <h4>
                 <a href="index.html">
-                    <img src="images/vp-logo.png" alt="" id="nav-img" />
+                    <span class="material-symbols-outlined">home</span>
+                    <span style="font-size: 1.2vw" id="content107">Home</span>
                 </a>
-                <div id="nav-part2">
-                    <h4>
-                        <a href="index.html">
-                            <span class="material-symbols-outlined">home</span>
-                            <span style="font-size: 1.2vw" >Home</span>
-                        </a>
-                    </h4>
-                    <h4>
-                        <a href="about.html">
-                            <span class="material-symbols-outlined">info</span>
-                            <span style="font-size: 20px" >About</span>
-                        </a>
-                    </h4>
-                    <h4>
-                        <a href="#" id="language-toggle">
-                            <span class="material-symbols-outlined">language</span>
-                            <span style="font-size: 1.2vw" >Language</span>
-                        </a>
-                    </h4>
-                    <h4>
-                        <a href="contact.html">
-                            <span class="material-symbols-outlined">contact_page</span>
-                            <span style="font-size: 1.2vw" >Contact</span>
-                        </a>
-                    </h4>
-                    <h4 class="nav-resources-section">
-                        <a href="#">
-                            <span class="material-symbols-outlined">video_library</span>
-                            <span style="font-size: 1.2vw" >Resources</span>
-                        </a>
-                    </h4>
-                    <h4 class="nav-dashboard-section" id="dashboard-section">
-                        <a href="dashboard.html">
-                            <span class="material-symbols-outlined">dashboard</span>
-                            <span>Dashboard</span>
-                        </a>
-                    </h4>
-                    <h4 class="nav-dashboard-section" id="login-section">
-                        <a href="login1.html">
-                            <span class="material-symbols-outlined">login</span>
-                            <span>Login</span>
-                        </a>
-                    </h4>
-                </div>
-                <div id="menu-icon">
-                    <span class="material-symbols-outlined"> menu </span>
-                </div>
-            </nav>
-            <!-- nav bar desktop end -->
+            </h4>
+            <h4>
+                <a href="about.html">
+                    <span class="material-symbols-outlined">info</span>
+                    <span style="font-size: 20px" id="content108">About</span>
+                </a>
+            </h4>
+            <h4>
+                <a href="#" id="language-toggle">
+                    <span class="material-symbols-outlined">language</span>
+                    <span style="font-size: 1.2vw" id="content109">Language</span>
+                </a>
+            </h4>
+            <h4>
+                <a href="contact.html">
+                    <span class="material-symbols-outlined">contact_page</span>
+                    <span style="font-size: 1.2vw" id="content110">Contact</span>
+                </a>
+            </h4>
+            <h4 class="nav-resources-section">
+                <a href="#">
+                    <span class="material-symbols-outlined">video_library</span>
+                    <span style="font-size: 1.2vw" id="content111">Resources</span>
+                </a>
+            </h4>
+            <h4 class="nav-dashboard-section" id="dashboard-section">
+                <a href="dashboard.html">
+                    <span class="material-symbols-outlined">dashboard</span>
+                    <span style="font-size: 1.2vw" id="content112">Dashboard</span>
+                </a>
+            </h4>
+            <h4 class="nav-dashboard-section" id="login-section">
+                <a href="login1.html">
+                    <span class="material-symbols-outlined">login</span>
+                    <span style="font-size: 1.2vw"  id="content113">Login</span>
+                </a>
+            </h4>
+        </div>
+        <div id="menu-icon">
+            <span class="material-symbols-outlined"> menu </span>
+        </div>
+    </nav>
+    <!-- nav bar desktop end -->
 
-            <!-- nav bar mobile -->
-            <div id="nav-part3">
-                <div id="mobile-nav">
-                    <h5><a href="index.html">Home</a></h5>
-                    <h5><a href="about.html">About</a></h5>
-                    <h5>
-                        <a id="language-toggle1"><span >Languages</span></a>
-                    </h5>
-                    <h5><a href="contact.html">Contact</a></h5>
-                    <h5><a href="register.html">Resources</a></h5>
-                </div>
-            </div>
+    <!-- nav bar mobile -->
+    <div id="nav-part3">
+        <div id="mobile-nav">
+            <h5><a href="index.html"><span id="content114">Home</span></a></h5>
+            <h5><a href="about.html"><span id="content115">About</span></a></h5>
+            <h5>
+                <a id="language-toggle1"><span id="content116">Languages</span></a>
+            </h5>
+            <h5><a href="contact.html"><span id="content117">Contact</span></a></h5>
+            <h5><a href="register.html"><span id="content118">Resources</span></a></h5>
+        </div>
+    </div>
+    <!-- nav bar mobile end -->
+
             <!-- nav bar mobile end -->
-
             <h3 class="domains-main-hedding " id="content2">
                 Educating a girl empowers her to create a better future for herself and her community.
             </h3>
@@ -184,11 +191,11 @@
                         rallies, and poster presentations help educate communities about the importance of girl
                         education. Additionally, health and nutrition programs focusing on menstrual hygiene ensure that
                         girls do not miss school due to health-related issues.</p>
-                    <p id="content7">It aims towards promoting awareness about the rights of the girl child and to increase awareness
+                    <!-- <p id="content7">It aims towards promoting awareness about the rights of the girl child and to increase awareness
                         on the importance of girl education, and their health and nutrition and also to promote the
                         girls position in the society to make their living better among the society. We conduct various
                         programs related to this cause such as street play, Rally, Poster presentation, departmental
-                        adoption of girl child etc.</p>
+                        adoption of girl child etc.</p> -->
 
 
                 </div>
@@ -333,9 +340,11 @@
                     </h4>
 
                     <p id="content21">
-                        About Team: team with a broad range of expertise. We are committed to
-                        providing high quality and compassionate mental health support to meet your needs.
+                                01: Sangeeta Wankhede & 02: Chetashri Bhusari </br>
+                                Masters in Computer Engeneering <br/>
+                                Teaching Experience of 20 years 
                     </p>
+
                     <div class="button-group">
                         <a href="#" class="custom-button w-inline-block">
                             <div class="button-text" id="content22">Resources from us</div>
@@ -387,29 +396,55 @@
         <!-- Page 2 content end -->
 
         <!-- Page 5 content -->
-        <div id="page5"></div>
+        <div id="page8">
+            <div id="footer-top">
+                <div id="footer-socials">
+                    <div id="footer-media">
+                        <i class="fa-brands fa-instagram fa-2x"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+        
+                    <div id="footer-copyrights">
+                        <h4>© 2025 Vidyalankar Polytechnic. All Rights Reserved.</h4>
+                    </div>
+        
+                    <div id="footer-links">
+                        <a href="privacypolicy.html">Privacy Policy</a>
+                        <a href="gallery.html">Gallery</a>
+                    </div>
+                </div>
+        
+                <div id="footer-domains">
+                    <a href="girlseducation.html">01: Girls Education</a>
+                    <a href="primaryEducation.html">02: Primary Education</a>
+                    <a href="UnprivilegedStudentsWellfare.html">03: Unprivileged Students Welfare</a>
+                    <a href="physicalHealth.html">04: Physical Health</a>
+                    <a href="mentalHealth.html">05: Mental Health</a>
+                    <a href="environment.html">06: Environment</a>
+                    <a href="digitalLiteracy.html">07: Digital Literacy</a>
+                    <a href="anti-narcotics.html">08: Antinarcotics</a>
+                </div>
+            </div>
+        
+            <div id="footer-down">
+                <div class="group1">
+                    <img src="All domains Images/All Logos/5.png" alt="" class="footer-down-image" />
+                    <img src="All domains Images/All Logos/4.png" alt="" class="footer-down-image"/>
+                    <h6>Sponsors</h6>
+                </div>
+        
+                <div class="group2">
+                    <h6>Sponsors</h6>
+                    <img src="images/redbox logo.png" alt="" class="footer-down-image"  />
+                    <img src="images/dads in town logo.png" alt="" class="footer-down-image"  />
+                </div>
+            </div>
+        </div>
         <!-- Page 5 content ends -->
     </div>
 
-    <!-- Footer Section -->
-    <div id="footer">
-        <div id="footer-div">
-            <h4 >
-                SanChi <br />
-                Education <br />
-                for Girls
-            </h4>
-        </div>
-        <h1 >SanChi</h1>
-        <div id="footer-bottom">
-            <h4>Copyright: @SanChi Team</h4>
-            <h4>Girs Education Commitee</h4>
-            <h4>Vidyalankar Polytechnic</h4>
-            <h4>RedBox Agency</h4>
-        </div>
-    </div>
-
-    <!-- Footer Section -->
+  
     <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
     <!-- <script src="first.js"></script> -->
     <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>

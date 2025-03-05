@@ -1,0 +1,128 @@
+@media (max-width: 1400px){
+
+    .domain-short-info1{
+        width: 100%;
+        padding: 1vw 2vw;
+        min-height: 30vh;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+.domain-short-info-left{
+    padding-bottom: 5vw;
+}
+    
+.domain-short-info-left,
+.domain-short-info-right{
+    width: 100%;
+    
+    /* background-color: blue; */
+    min-height: 20vh;
+}
+.domain-short-info-left > p{
+    font-size: 4vw;
+    font-weight: 400;
+    line-height: 5vw;
+    margin-top: 1vw;
+    text-align: justify;
+    padding: 4vw;
+
+}
+
+.custom-button {
+font-weight: 3vw;
+font-size: 3vw;
+margin-left: 4vw;
+margin-top: 2vw;
+}
+.domain-short-info2{
+    width: 100%;
+    padding: 1vw 2vw;
+    min-height: 30vh;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.domain-sub-heading-sticky{
+width: 100%;
+padding: 1vw 2vw;
+margin-top: 2vw;
+margin-bottom: 2vw;
+display: flex;
+justify-content: center;
+min-height: 10vh;
+align-items: center;
+}
+.domain-sub-heading-sticky >h5{
+    font-size: 6vw;
+    font-weight: 400;
+    line-height: 5vw;
+    text-align: center;
+}
+.domain-sticky-content{
+
+width: 100%;
+padding: 1vw 2vw;
+margin-top: 2vw;
+}
+.domain-sticky-content > p{
+font-size: 4vw;
+line-height: 5vw;
+
+}
+
+.masonry {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40vw, 1fr));
+    grid-auto-rows: 10px;
+    gap: 20px;
+}
+#string2{
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+}
+
+#page4{
+    min-height: 0vh;
+}
+.domains-main-hedding{
+    font-size: 6vw;
+    font-weight: 400;
+    line-height: 7vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    text-align: center;
+}
+.domain-heading-division-mark{
+    height: 5vh;
+
+}
+.domain-heading-division-mark > p{
+    font-size: 4vw;
+    font-weight: 400;
+    line-height: 5vw;
+    text-align: center;
+}
+.domain-sticky-content > p >strong{
+    font-size: 5vw;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.domain-team-heading{
+    height: 10vh;
+    margin-bottom: 7vw;
+    font-size: 6vw;
+    text-align: center;
+    padding: 2vw;
+    line-height: 8vw;
+}
+
+}

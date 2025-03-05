@@ -14,7 +14,7 @@ const content = {
     content4: `Workplace Wellness`,
     content5: `Regular health checkup camps play a vital role in ensuring the well-being of employees. These camps provide access to medical professionals for routine screenings, early detection of health issues, and guidance on maintaining a healthy lifestyle. Preventive care helps reduce the risk of chronic illnesses, leading to a healthier and more productive workforce.`,
     content6: `Apart from medical checkups, incorporating fitness activities and mental wellness programs enhances overall health. Yoga sessions, physical exercise programs, and stress management workshops help employees stay active and mentally balanced. Encouraging such initiatives fosters a positive work environment, reducing absenteeism and promoting long-term well-being.`,
-    content7: `A balanced diet is essential for maintaining good health and energy levels. Workplace wellness programs can include nutritional awareness sessions, healthy meal options, and guidance on proper eating habits. Educating employees about nutrition helps them make better food choices, leading to improved focus, higher productivity, and overall well-being.`,
+    // content7: `A balanced diet is essential for maintaining good health and energy levels. Workplace wellness programs can include nutritional awareness sessions, healthy meal options, and guidance on proper eating habits. Educating employees about nutrition helps them make better food choices, leading to improved focus, higher productivity, and overall well-being.`,
     content8: `Promoting health and wellness through preventive care and fitness initiatives for a stronger, more active community.`,
     content9: `Coutribute To Our Journey`,
     content10: `Our core values`,
@@ -60,6 +60,30 @@ const content = {
     content23: `Empowering Movement, Enhancing Health, and Shaping a Stronger Future.`,
     content24: `Join Us and Be a Part of Her Journey to Impact!`,
 
+
+    
+// menu english
+content101:`Choose Language`,
+content102:`Resources`,
+content103:`Audio Books`,
+content104:`Video`,
+content105:`Notes Download`,
+content106:`Close`,
+content107:`Home`,
+content108:`About`,
+content109:`Language`,
+content110:`Contact`,
+content111:`Resources`,
+content112:`Dashboard`,
+content113:`Login`,
+content114:`Home`,
+content115:`About`,
+content116:`Languages`,
+content117:`Contact`,
+content118:`Resources`,
+
+// menu end
+
   },
   hindi: {
     content1: `शारीरिक स्वास्थ्य और तंदुरुस्ती शक्ति और जीवन शक्ति का पोषण करती है, तथा व्यक्तियों को सक्रिय और संतुष्ट जीवन जीने के लिए सशक्त बनाती है।`,
@@ -68,7 +92,7 @@ const content = {
     content4: `कार्यस्थल कल्याण`,
     content5: `नियमित स्वास्थ्य जांच शिविर कर्मचारियों की भलाई सुनिश्चित करने में महत्वपूर्ण भूमिका निभाते हैं। ये शिविर नियमित जांच, स्वास्थ्य समस्याओं का जल्द पता लगाने और स्वस्थ जीवनशैली बनाए रखने के लिए मार्गदर्शन के लिए चिकित्सा पेशेवरों तक पहुँच प्रदान करते हैं। निवारक देखभाल पुरानी बीमारियों के जोखिम को कम करने में मदद करती है, जिससे एक स्वस्थ और अधिक उत्पादक कार्यबल बनता है।`,
     content6: `मेडिकल चेकअप के अलावा, फिटनेस गतिविधियों और मानसिक स्वास्थ्य कार्यक्रमों को शामिल करने से समग्र स्वास्थ्य में सुधार होता है। योग सत्र, शारीरिक व्यायाम कार्यक्रम और तनाव प्रबंधन कार्यशालाएँ कर्मचारियों को सक्रिय और मानसिक रूप से संतुलित रहने में मदद करती हैं। ऐसी पहलों को प्रोत्साहित करने से सकारात्मक कार्य वातावरण को बढ़ावा मिलता है, अनुपस्थिति कम होती है और दीर्घकालिक कल्याण को बढ़ावा मिलता है।`,
-    content7: `संतुलित आहार अच्छे स्वास्थ्य और ऊर्जा के स्तर को बनाए रखने के लिए आवश्यक है। कार्यस्थल कल्याण कार्यक्रमों में पोषण संबंधी जागरूकता सत्र, स्वस्थ भोजन विकल्प और उचित खाने की आदतों पर मार्गदर्शन शामिल हो सकता है। कर्मचारियों को पोषण के बारे में शिक्षित करने से उन्हें बेहतर भोजन विकल्प चुनने में मदद मिलती है, जिससे बेहतर ध्यान, उच्च उत्पादकता और समग्र कल्याण होता है।`,
+    // content7: `संतुलित आहार अच्छे स्वास्थ्य और ऊर्जा के स्तर को बनाए रखने के लिए आवश्यक है। कार्यस्थल कल्याण कार्यक्रमों में पोषण संबंधी जागरूकता सत्र, स्वस्थ भोजन विकल्प और उचित खाने की आदतों पर मार्गदर्शन शामिल हो सकता है। कर्मचारियों को पोषण के बारे में शिक्षित करने से उन्हें बेहतर भोजन विकल्प चुनने में मदद मिलती है, जिससे बेहतर ध्यान, उच्च उत्पादकता और समग्र कल्याण होता है।`,
     content8: `एक मजबूत, अधिक सक्रिय समुदाय के लिए निवारक देखभाल और फिटनेस पहल के माध्यम से स्वास्थ्य और कल्याण को बढ़ावा देना।`,
     content9: `हमारी यात्रा में योगदान दें`,
     content10: `हमारे मूल मूल्य`,
@@ -87,6 +111,30 @@ const content = {
     content23: `सशक्तीकरण आंदोलन, स्वास्थ्य में सुधार, और एक मजबूत भविष्य को आकार देना।`,
     content24: `हमारे साथ जुड़ें और उनके प्रभावशाली सफर का हिस्सा बनें!`,
 
+
+    
+// menu hindi
+content101:`भाषा चुनें`,
+content102:`संसाधन`,
+content103:`ऑडियो पुस्तकें`,
+content104:`वीडियो`,
+content105:`नोट्स डाउनलोड`,
+content106:`बंद करें`,
+content107:`होम`,
+content108:`परिचय`,
+content109:`भाषा`,
+content110:`संपर्क`,
+content111:`संसाधन`,
+content112:`डैशबोर्ड`,
+content113:`लॉगिन`,
+content114:`होम`,
+content115:`परिचय`,
+content116:`भाषाएँ`,
+content117:`संपर्क`,
+content118:`संसाधन`,
+// menu end
+
+
   },
   marathi: {
     content1: `शारीरिक आरोग्य आणि निरोगीपणा शक्ती आणि चैतन्य वाढवतो, व्यक्तींना सक्रिय आणि समाधानी जीवन जगण्यास सक्षम बनवतो.`,
@@ -98,9 +146,9 @@ const content = {
     content4: `कामाच्या ठिकाणी निरोगीपणा`,
     content5: `कर्मचाऱ्यांचे कल्याण सुनिश्चित करण्यात नियमित आरोग्य तपासणी शिबिरे महत्त्वाची भूमिका बजावतात. या शिबिरांमध्ये वैद्यकीय व्यावसायिकांना नियमित तपासणी, आरोग्य समस्यांचे लवकर निदान आणि निरोगी जीवनशैली राखण्यासाठी मार्गदर्शन उपलब्ध होते. प्रतिबंधात्मक काळजी दीर्घकालीन आजारांचा धोका कमी करण्यास मदत करते, ज्यामुळे निरोगी आणि अधिक उत्पादक कर्मचारी वर्ग निर्माण होतो.`,
     content6: `वैद्यकीय तपासणी व्यतिरिक्त, फिटनेस क्रियाकलाप आणि मानसिक आरोग्य कार्यक्रमांचा समावेश करणे - एकूण आरोग्य सुधारते. योग सत्रे, शारीरिक व्यायाम कार्यक्रम आणि ताण व्यवस्थापन - कार्यशाळा कर्मचाऱ्यांना सक्रिय आणि मानसिकदृष्ट्या संतुलित राहण्यास मदत करतात. अशा उपक्रमांना प्रोत्साहन देणे - सकारात्मक कामाचे वातावरण निर्माण करते, अनुपस्थिती कमी करते आणि दीर्घकालीन कल्याणाला प्रोत्साहन देते.`,
-    content7: `चांगले आरोग्य आणि उर्जेची पातळी राखण्यासाठी संतुलित आहार आवश्यक आहे. कामाच्या ठिकाणी निरोगीपणा
-कार्यक्रमांमध्ये पौष्टिक जागरूकता सत्रे, निरोगी जेवणाचे पर्याय आणि योग्य खाण्याच्या सवयींबद्दल मार्गदर्शन समाविष्ट असू शकते. कर्मचाऱ्यांना पोषणाबद्दल शिक्षित केल्याने त्यांना चांगले अन्न निवडण्यास मदत होते,
-                ज्यामुळे लक्ष केंद्रित करणे, उत्पादकता वाढवणे आणि एकूणच कल्याण सुधारते.`,
+//     content7: `चांगले आरोग्य आणि उर्जेची पातळी राखण्यासाठी संतुलित आहार आवश्यक आहे. कामाच्या ठिकाणी निरोगीपणा
+// कार्यक्रमांमध्ये पौष्टिक जागरूकता सत्रे, निरोगी जेवणाचे पर्याय आणि योग्य खाण्याच्या सवयींबद्दल मार्गदर्शन समाविष्ट असू शकते. कर्मचाऱ्यांना पोषणाबद्दल शिक्षित केल्याने त्यांना चांगले अन्न निवडण्यास मदत होते,
+//                 ज्यामुळे लक्ष केंद्रित करणे, उत्पादकता वाढवणे आणि एकूणच कल्याण सुधारते.`,
     content8: `अधिक सक्रिय आणि मजबूत समुदायासाठी प्रतिबंधात्मक काळजी आणि तंदुरुस्ती उपक्रमांद्वारे आरोग्य आणि निरोगीपणाला प्रोत्साहन देणे.`,
     content9: `आमच्या प्रवासात योगदान द्या`,
     content10: `आमची मुख्य मूल्ये`,
@@ -132,6 +180,30 @@ const content = {
     content22: `आमच्याकडून संसाधने`,
     content23: `चळवळीला सक्षम बनवणे, आरोग्य सुधारणे आणि एक मजबूत भविष्य घडवणे.`,
     content24: `आमच्यात सामील व्हा आणि तिच्या प्रभावाच्या प्रवासाचा भाग व्हा!`,
+
+
+
+    
+// menu marathi
+content101:`भाषा निवडा`,
+content102:`संसाधने`,
+content103:`ऑडिओ पुस्तके`,
+content104:`व्हिडिओ`,
+content105:`नोट्स डाउनलोड`,
+content106:`बंद करा`,
+content107:`होम`,
+content108:`आमच्याबद्दल`,
+content109:`भाषा`,
+content110:`संपर्क`,
+content111:`संसाधने`,
+content112:`डॅशबोर्ड`,
+content113:`लॉगिन`,
+content114:`होम`,
+content115:`आमच्याबद्दल`,
+content116:`भाषा`,
+content117:`संपर्क`,
+content118:`संसाधने`,
+// menu end
   },
 };
 

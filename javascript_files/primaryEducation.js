@@ -21,10 +21,10 @@ const content = {
                         importance of early learning. Additionally, nutrition and health programs ensure that young
                         children receive proper nourishment, enabling them to attend school regularly and focus on their
                         studies.`,
-          content7:`To promote primary education, efforts such as home visits, parent counseling, and interactive
-                        teaching methods encourage families to prioritize early learning. Awareness drives through local
-                        events and storytelling sessions help communities understand the long-term benefits of primary
-                        education.`,
+          // content7:`To promote primary education, efforts such as home visits, parent counseling, and interactive
+          //               teaching methods encourage families to prioritize early learning. Awareness drives through local
+          //               events and storytelling sessions help communities understand the long-term benefits of primary
+          //               education.`,
           content8:`Nurturing Young Minds, Building Strong Foundations, and Empowering the Leaders of Tomorrow Through the
                 Power of Early Learning.`,
           content9:`Contribute To Our Journey`,
@@ -65,12 +65,36 @@ const content = {
                         combining quality education with proper nourishment and a supportive environment, we create a
                         solid foundation for lifelong learning and success.`,
           content20:`Our qualified and experienced team`,
-          content21:`At Q Psychology, we have a diverse team with a broad range of expertise. We are committed to
-                        providing high quality and compassionate mental health support to meet your needs.`,
-          content22:`Reach out to us`,
+          content21:`01: Prof. Tanvi & 02: Prof. Kalyani <br>
+    Information Technology (IF) Department <br>
+    Teaching Experience of 20 years`,
           content23:`Nurturing Young Minds, Building Strong Foundations for a Brighter Tomorrow.`,
           content24:`Connect with Us to Access Learning Resources and Empower Young Minds.`,
           content25:`Connect With us`,
+
+
+          
+// menu english
+content101:`Choose Language`,
+content102:`Resources`,
+content103:`Audio Books`,
+content104:`Video`,
+content105:`Notes Download`,
+content106:`Close`,
+content107:`Home`,
+content108:`About`,
+content109:`Language`,
+content110:`Contact`,
+content111:`Resources`,
+content112:`Dashboard`,
+content113:`Login`,
+content114:`Home`,
+content115:`About`,
+content116:`Languages`,
+content117:`Contact`,
+content118:`Resources`,
+
+// menu end
   },
   hindi: {
     content1: "प्राथमिक शिक्षा उज्जवल भविष्य की नींव रखती है, जिससे युवा मन बढ़ते और विकसित होते हैं।",
@@ -79,7 +103,7 @@ const content = {
     content4: "ज्ञान को एकजुट <br/> करना",
     content5: "आंगनवाड़ी के छात्रों को शैक्षिक सहायता प्रदान करने से उनके प्रारंभिक सीखने के अनुभवों में काफी सुधार हो सकता है।<br /><br /><b>हम इस प्रकार योगदान करते हैं:</b><br /> 01: बुनियादी शिक्षण सामग्री प्रदान करना<br /> 02: इंटरैक्टिव लर्निंग टूल्स<br /> 03: स्टेशनरी की आपूर्ति<br /> 04: बुनियादी ढांचे का समर्थन<br /> 05: डिजिटल और तकनीकी सहायता<br /> 06: स्वयंसेवी शिक्षण और सहभागिता<br />",
     content6: "प्राथमिक शिक्षा की चुनौतियों से निपटने के लिए, सामुदायिक भागीदारी कार्यक्रम, संवादात्मक कहानी कहने और शैक्षिक कार्यशालाओं जैसे प्रयास जागरूकता बढ़ाने में मदद करते हैं। साथ ही, पोषण और स्वास्थ्य कार्यक्रम यह सुनिश्चित करते हैं कि छोटे बच्चों को उचित पोषण मिले, जिससे वे नियमित रूप से स्कूल जा सकें और अपनी पढ़ाई पर ध्यान केंद्रित कर सकें।",
-    content7: "प्राथमिक शिक्षा को बढ़ावा देने के लिए, घर पर जाकर जागरूकता अभियान, माता-पिता की काउंसलिंग और संवादात्मक शिक्षण विधियाँ अपनाई जाती हैं। स्थानीय कार्यक्रमों और कहानी कहने के सत्रों के माध्यम से परिवारों को प्राथमिक शिक्षा के दीर्घकालिक लाभ समझाए जाते हैं।",
+    // content7: "प्राथमिक शिक्षा को बढ़ावा देने के लिए, घर पर जाकर जागरूकता अभियान, माता-पिता की काउंसलिंग और संवादात्मक शिक्षण विधियाँ अपनाई जाती हैं। स्थानीय कार्यक्रमों और कहानी कहने के सत्रों के माध्यम से परिवारों को प्राथमिक शिक्षा के दीर्घकालिक लाभ समझाए जाते हैं।",
     content8: "युवा मन को पोषित करना, मजबूत नींव बनाना, और प्रारंभिक शिक्षा की शक्ति के माध्यम से भविष्य के नेताओं को सशक्त बनाना।",
     content9: "हमारी यात्रा में योगदान दें",
     content10: "हमारे मूल मूल्य",
@@ -126,20 +150,45 @@ const content = {
                         उचित पोषण और सहायक वातावरण के साथ गुणवत्तापूर्ण शिक्षा का संयोजन करके, हम एक का निर्माण करते हैं
                         आजीवन सीखने और सफलता के लिए ठोस आधार।`,
     content20: "हमारी अनुभवी और योग्य टीम",
-    content21: "हमारी टीम विविधता से भरपूर और विभिन्न क्षेत्रों में विशेषज्ञता रखती है। हम उच्च गुणवत्ता और दयालु मानसिक स्वास्थ्य सहायता प्रदान करने के लिए प्रतिबद्ध हैं।",
+    content21: ` 01: प्रो. तन्वी & 02: प्रो. कल्याणी <br>
+    सूचना प्रौद्योगिकी (IF) विभाग <br>
+    20 वर्षों का शिक्षण अनुभव`,
     content22: "हमसे संपर्क करें",
     content23: "युवा मन को पोषित करना, उज्जवल भविष्य के लिए मजबूत नींव बनाना।",
     content24: "सीखने के संसाधनों तक पहुँचने और युवा मन को सशक्त बनाने के लिए हमसे जुड़ें।",
-    content25: "हमसे जुड़ें"
+    content25: "हमसे जुड़ें",
+
+
+    
+// menu hindi
+content101:`भाषा चुनें`,
+content102:`संसाधन`,
+content103:`ऑडियो पुस्तकें`,
+content104:`वीडियो`,
+content105:`नोट्स डाउनलोड`,
+content106:`बंद करें`,
+content107:`होम`,
+content108:`परिचय`,
+content109:`भाषा`,
+content110:`संपर्क`,
+content111:`संसाधन`,
+content112:`डैशबोर्ड`,
+content113:`लॉगिन`,
+content114:`होम`,
+content115:`परिचय`,
+content116:`भाषाएँ`,
+content117:`संपर्क`,
+content118:`संसाधन`,
+// menu end
   },
  marathi: {
     content1: "प्राथमिक शिक्षण उज्ज्वल भविष्याची पायाभूत सुविधा निर्माण करते, तरुण मनांना वाढण्यास आणि विकसित होण्यास मदत करते.",
     content2: "शिक्षण हा प्रत्येकाचा मूलभूत अधिकार आहे, तरीही अनेक वंचित समुदायातील मुलांना दर्जेदार प्राथमिक शिक्षण मिळत नाही. लहान वयात चांगली शैक्षणिक पायाभरणी त्यांच्या वाढीस मदत करते आणि त्यांना व समाजासाठी एक उज्ज्वल भविष्य घडवते.",
     content3: "आमच्याशी संपर्क साधा",
-    content4: "ज्ञान एकत्र आणणे",
+    content4: "ज्ञान एकत्र <br/> आणणे",
     content5: "आंगणवाडी विद्यार्थ्यांना शैक्षणिक मदत पुरवण्याने त्यांच्या सुरुवातीच्या शिक्षणाच्या अनुभवाला मोठा फायदा होऊ शकतो।<br /><br /><b>आमचे योगदान:</b><br /> 01: मूलभूत शिक्षण साहित्य पुरवणे<br /> 02: संवादात्मक शिक्षण साधने<br /> 03: स्टेशनरी पुरवठा<br /> 04: पायाभूत सुविधा समर्थन<br /> 05: डिजिटल आणि तंत्रज्ञान मदत<br /> 06: स्वयंसेवी अध्यापन आणि सहभाग<br />",
     content6: "प्राथमिक शिक्षणाच्या आव्हानांना सामोरे जाण्यासाठी समुदाय कार्यक्रम, कथा सांगण्याचे सत्र आणि शैक्षणिक कार्यशाळा यांचा उपयोग केला जातो. तसेच, पोषण आणि आरोग्य कार्यक्रम मुलांना योग्य आहार मिळवून देतात.",
-    content7: "घर भेटी, पालक सल्लामसलत आणि संवादात्मक शिक्षण पद्धतींच्या मदतीने प्राथमिक शिक्षणाला प्रोत्साहन दिले जाते.",
+    // content7: "घर भेटी, पालक सल्लामसलत आणि संवादात्मक शिक्षण पद्धतींच्या मदतीने प्राथमिक शिक्षणाला प्रोत्साहन दिले जाते.",
     content8: "तरुण मनांना पोषित करणे, मजबूत पाया घालणे आणि प्रारंभिक शिक्षणाच्या मदतीने उज्ज्वल भविष्य घडवणे.",
     content9: "आमच्या प्रवासात योगदान द्या",
     content10: "आमच्या मुख्य मूल्ये",
@@ -184,11 +233,38 @@ const content = {
                         योग्य पोषण आणि आश्वासक वातावरणासह दर्जेदार शिक्षणाची सांगड घालून, आम्ही एक तयार करतो
                         आजीवन शिक्षण आणि यशासाठी भक्कम पाया.`,
     content20: "आमची तज्ज्ञ आणि अनुभवी टीम",
-    content21: "आमची टीम गुणवत्तापूर्ण आणि करुणायुक्त मानसिक आरोग्य मदत प्रदान करण्यास कटिबद्ध आहे.",
+    content21: ` 01: प्रो. तन्वी & 02: प्रो. कल्याणी <br>
+    माहिती तंत्रज्ञान (IF) विभाग <br>
+    20 वर्षांचा अध्यापन अनुभव`,
     content22: "आमच्याशी संपर्क साधा",
     content23: "तरुण मनांचे संवर्धन, उज्ज्वल भविष्याची उभारणी.",
     content24: "शैक्षणिक संसाधने मिळवण्यासाठी आणि मुलांना सशक्त करण्यासाठी आमच्याशी जुळा.",
-    content25: "आमच्याशी संपर्क साधा"
+    content25: "आमच्याशी संपर्क साधा",
+
+
+
+    
+
+// menu marathi
+content101:`भाषा निवडा`,
+content102:`संसाधने`,
+content103:`ऑडिओ पुस्तके`,
+content104:`व्हिडिओ`,
+content105:`नोट्स डाउनलोड`,
+content106:`बंद करा`,
+content107:`होम`,
+content108:`आमच्याबद्दल`,
+content109:`भाषा`,
+content110:`संपर्क`,
+content111:`संसाधने`,
+content112:`डॅशबोर्ड`,
+content113:`लॉगिन`,
+content114:`होम`,
+content115:`आमच्याबद्दल`,
+content116:`भाषा`,
+content117:`संपर्क`,
+content118:`संसाधने`,
+// menu end
   }
 };
   

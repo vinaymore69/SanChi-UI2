@@ -9,7 +9,7 @@ const content = {
     content4: `Bridging Education`,
     content5: `Education is a powerful tool for empowering girls and breaking the cycle of poverty. Unfortunately, millions of girls worldwide still face obstacles such as financial constraints, societal norms, and inadequate resources that hinder their access to quality education. Providing girls with education not only improves their personal and professional prospects but also contributes to the development of more progressive and economically stable communities.`,
     content6: `To address these challenges, initiatives such as awareness campaigns through street plays, rallies, and poster presentations help educate communities about the importance of girl education. Additionally, health and nutrition programs focusing on menstrual hygiene ensure that girls do not miss school due to health-related issues.`,
-    content7: `It aims towards promoting awareness about the rights of the girl child and to increase awareness on the importance of girl education, and their health and nutrition and also to promote the girls position in the society to make their living better among the society. We conduct various programs related to this cause such as street play, Rally, Poster presentation, departmental adoption of girl child etc.`,
+    // content7: `It aims towards promoting awareness about the rights of the girl child and to increase awareness on the importance of girl education, and their health and nutrition and also to promote the girls position in the society to make their living better among the society. We conduct various programs related to this cause such as street play, Rally, Poster presentation, departmental adoption of girl child etc.`,
     content8: `We are committed to fostering a safe and inclusive space, built on respect and empowerment.`,
     content9: `Coutribute To Our Journey`,
     content10: `Our core values`,
@@ -49,12 +49,39 @@ const content = {
                         grow. At SanChi, we are committed to breaking down barriers in education, ensuring that no one
                         is left behind, and building a future where learning knows no limits.`,
     content20: ` Our qualified and experienced team`,
-    content21:`About Team: team with a broad range of expertise. We are committed to
-                        providing high quality and compassionate mental health support to meet your needs.`,
+    content21:`01: Sangeeta Wankhede & 02: Chetashri Bhusari </br>
+               Masters in Computer Engeneering <br/>
+               Teaching Experience of 20 years 
+               `,
     content22: `Resources from us`,
     content23:`When You Educate a Girl, You Transform a Nation!`,
     content24:`Join Us and Be a Part of Her Journey to Empowerment!`,
     content25:`connent with us`,
+
+
+
+    
+// menu english
+content101:`Choose Language`,
+content102:`Resources`,
+content103:`Audio Books`,
+content104:`Video`,
+content105:`Notes Download`,
+content106:`Close`,
+content107:`Home`,
+content108:`About`,
+content109:`Language`,
+content110:`Contact`,
+content111:`Resources`,
+content112:`Dashboard`,
+content113:`Login`,
+content114:`Home`,
+content115:`About`,
+content116:`Languages`,
+content117:`Contact`,
+content118:`Resources`,
+
+// menu end
   },
   hindi: {
     content2: `एक लड़की को शिक्षित करना उसे खुद के लिए और अपने समुदाय के लिए एक बेहतर भविष्य बनाने की शक्ति प्रदान करता है।`,
@@ -62,7 +89,7 @@ const content = {
     content4: `शिक्षा का पुल`,
     content5: `शिक्षा लड़कियों को शक्तिशाली बनाने और गरीबी के चक्र को तोड़ने के लिए एक शक्तिशाली उपकरण है। दुर्भाग्य से, दुनिया भर में लाखों लड़कियां अब भी आर्थिक प्रतिबंधों, सामाजिक नियमों और गुणवत्ता शिक्षा तक पहुंचने की रोकवारी जैसी बाधाओं का सामना करती हैं। लड़कियों को शिक्षा प्रदान करना न केवल उनके व्यक्तिगत और पेशेवर संभावनाओं को सुधारता है, बल्कि यह भी उनके समुदायों को अधिक प्रगतिशील और आर्थिक दृढ़ बनाने में मदद करता है।`,
     content6: `इन चुनौतियों का सामना करने के लिए, जागरूकता अभियान जैसे पहल के माध्यम से गलियों में नाटक, रैलियों और पोस्टर प्रस्तुतियों के माध्यम से समुदायों को शिक्षा के महत्व के बारे में शिक्षित करने में मदद करते हैं। इसके अलावा, माहवारी स्वच्छता पर ध्यान केंद्रित स्वास्थ्य और पोषण कार्यक्रम सुनिश्चित करते हैं कि लड़कियां स्वास्थ्य संबंधित मुद्दों के कारण स्कूल न छूटें।`,
-    content7: `इसका उद्देश्य लड़की के अधिकारों के बारे में जागरूकता बढ़ाना है और लड़कियों की शिक्षा, और उनके स्वास्थ्य और पोषण के महत्व के बारे में जागरूकता बढ़ाना है और समाज में लड़कियों की स्थिति को बेहतर बनाने के लिए। हम इस कारण से संबंधित विभिन्न कार्यक्रम आयोजित करते हैं जैसे कि सड़क नाटक, रैली, पोस्टर प्रस्तुति, विभागीय गोद लेना आदि।`,
+    // content7: `इसका उद्देश्य लड़की के अधिकारों के बारे में जागरूकता बढ़ाना है और लड़कियों की शिक्षा, और उनके स्वास्थ्य और पोषण के महत्व के बारे में जागरूकता बढ़ाना है और समाज में लड़कियों की स्थिति को बेहतर बनाने के लिए। हम इस कारण से संबंधित विभिन्न कार्यक्रम आयोजित करते हैं जैसे कि सड़क नाटक, रैली, पोस्टर प्रस्तुति, विभागीय गोद लेना आदि।`,
     content8: `हम सम्मान और सशक्तिकरण पर आधारित एक सुरक्षित और समावेशी स्थान को बढ़ावा देने के लिए प्रतिबद्ध हैं।`,
     content9: `हमारी यात्रा में योगदान करें`,
     content10: `हमारे मूल्य`,
@@ -105,13 +132,35 @@ const content = {
                         लिए प्रतिबद्ध हैं, सुनिश्चित करते हैं कि कोई भी पीछे न रहे, और एक भविष्य बनाते हैं
                         जहां शिक्षा की कोई सीमा नहीं है।`,
     content20: `हमारी योग्य और अनुभवी टीम`,
-    content21:`हमारे टीम के बारे में: विस्तृत विशेषज्ञता के साथ टीम। हम उच्च गुणवत्ता और दयालु मानसिक स्वास्थ्य समर्थन प्रदान करने के प्रति प्रतिबद्ध हैं ताकि आपकी आवश्यकताओं को पूरा कर सकें।`,
+    content21:`01: संगीता वानखेड़े और 02: चेतश्री भुसारी </br>
+कंप्यूटर इंजीनियरिंग में स्नातकोत्तर <br/>
+20 वर्षों का शिक्षण अनुभव`,
     content22: `हमसे संसाधन`,
     content23:`जब आप एक लड़की को शिक्षित करते हैं, तो आप एक राष्ट्र को परिवर्तित करते हैं!`,
     content24:`हमारे साथ जुड़ें और उसके सशक्तिकरण की यात्रा का हिस्सा बनें!`,
     content25:`हमारे साथ जुड़ें`,
 
 
+// menu hindi
+content101:`भाषा चुनें`,
+content102:`संसाधन`,
+content103:`ऑडियो पुस्तकें`,
+content104:`वीडियो`,
+content105:`नोट्स डाउनलोड`,
+content106:`बंद करें`,
+content107:`होम`,
+content108:`परिचय`,
+content109:`भाषा`,
+content110:`संपर्क`,
+content111:`संसाधन`,
+content112:`डैशबोर्ड`,
+content113:`लॉगिन`,
+content114:`होम`,
+content115:`परिचय`,
+content116:`भाषाएँ`,
+content117:`संपर्क`,
+content118:`संसाधन`,
+// menu end
 
   },
   marathi: {
@@ -120,7 +169,7 @@ const content = {
     content4: `शिक्षणाचा पुल`,
     content5: `शिक्षण मुलगीला शक्तिशाली बनवण्यासाठी आणि गरीबीचे चक्र तोडण्यासाठी एक शक्तिशाली उपकरण आहे. दुर्दैवी, जगात अजूनही लाखों मुलगी आर्थिक अडचणी, सामाजिक नियमे, आणि गुणवत्ता शिक्षणात प्रवेशासाठी बाधांचा सामना करतात. मुलगीला शिक्षण प्रदान करणे तिच्या व्यक्तिगत आणि व्यावसायिक संभावनांच्या सुधारण्यात मदत करते नाही फक्त प्रगतिशील आणि आर्थिक दृढ समुदायांच्या विकासात योगदान करते.`,
     content6: `या चुनौत्यांच्या सामन्याकरिता करण्यासाठी, जागरूकता अभियान जसे की सडक नाटक, रॅली, आणि पोस्टर प्रस्तुतींच्या माध्यमातून समुदायांना मुलगी शिक्षणाचे महत्व शिकवण्यास मदत करतात. तसेच, माहिती आणि पोषण कार्यक्रम ज्यांना माहिती आहे त्यांच्या आरोग्याच्या मुद्द्यांमुळे विद्यालयात अनुपस्थिती न होण्यास सुनिश्चित करतात.`,
-    content7: `हे लक्ष्य लक्षात ठेवण्यासाठी उद्दिष्ट असलेले अभियान आहे लड़की बालाच्या हक्कांच्या विषयी जागरूकता वाढवण्यासाठी आणि लड़की शिक्षणाच्या महत्वाच्या विषयी जागरूकता वाढवण्यासाठी, आणि त्यांच्या आरोग्य आणि पोषणाच्या विषयी जागरूकता वाढवण्यासाठी आणि समाजातील मुलगीची स्थिती बेहतर करण्यासाठी। आम्ही या कारणासंबंधित विविध कार्यक्रम आयोजित करतो जसे की सडक नाटक, रॅली, पोस्टर प्रस्तुती, विभागीय गोद लेणे आदि।`,
+    // content7: `हे लक्ष्य लक्षात ठेवण्यासाठी उद्दिष्ट असलेले अभियान आहे लड़की बालाच्या हक्कांच्या विषयी जागरूकता वाढवण्यासाठी आणि लड़की शिक्षणाच्या महत्वाच्या विषयी जागरूकता वाढवण्यासाठी, आणि त्यांच्या आरोग्य आणि पोषणाच्या विषयी जागरूकता वाढवण्यासाठी आणि समाजातील मुलगीची स्थिती बेहतर करण्यासाठी। आम्ही या कारणासंबंधित विविध कार्यक्रम आयोजित करतो जसे की सडक नाटक, रॅली, पोस्टर प्रस्तुती, विभागीय गोद लेणे आदि।`,
     content8: `आम्ही सम्मान आणि सशक्तिकरणावर आधारित एक सुरक्षित आणि समावेशी स्थान वाढवण्यासाठी प्रतिबद्ध आहोत.`,
     content9: `आमच्या यात्रेत सहभागी व्हा`,
     content10: `आमच्या मूळ्ये`,
@@ -160,12 +209,37 @@ const content = {
                         सुनिश्चित करतो की कोणतीही पीछे न राहते, आणि एक भविष्य तयार करतो जिथे शिक्षणाची कोणतीही
                         सीमा नाही.`,
     content20: `आमची योग्य आणि अनुभवी टीम`,
-    content21:`आमच्या टीमबद्दल: विस्तृत विशेषज्ञता संघातात. आम्ही उच्च गुणवत्ता आणि दयाळू मानसिक स्वास्थ्य समर्थन प्रदान करण्यासाठी प्रतिबद्ध आहोत ताकी आपल्या आवश्यकतांना पूर्ण करू शको.`,
+    content21:`०१: संगीता वानखेडे आणि ०२: चेतश्री भुसारी </br>
+संगणक अभियांत्रिकीमध्ये पदव्युत्तर पदवी <br/>
+२० वर्षांचा अध्यापन अनुभव`,
     content22: `संसाधनांसह संपर्क साधा`,
     content23:`जेव्हा आपण एक मुलगीला शिक्षित करता, तेव्हा आपण एक राष्ट्राला बदलता!`,
     content24:`आमच्याशी संपर्क साधा आणि त्याच्या सशक्तिकरणाच्या यात्रेचा एक भाग बना!`,
     content25:`आमच्याशी संपर्क साधा`,
 
+
+
+    
+// menu marathi
+content101:`भाषा निवडा`,
+content102:`संसाधने`,
+content103:`ऑडिओ पुस्तके`,
+content104:`व्हिडिओ`,
+content105:`नोट्स डाउनलोड`,
+content106:`बंद करा`,
+content107:`होम`,
+content108:`आमच्याबद्दल`,
+content109:`भाषा`,
+content110:`संपर्क`,
+content111:`संसाधने`,
+content112:`डॅशबोर्ड`,
+content113:`लॉगिन`,
+content114:`होम`,
+content115:`आमच्याबद्दल`,
+content116:`भाषा`,
+content117:`संपर्क`,
+content118:`संसाधने`,
+// menu end
   },
 };
 

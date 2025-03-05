@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css_files/physicalHealth.css" />
     <link rel="stylesheet" href="css_files/footer.css" />
     <link rel="stylesheet" href="css_files/language.css" />
+    <link rel="stylesheet" href="css_files/domainFooter.css">
+    <link rel="stylesheet" href="css_files/domainsMobileView.css" />
+
     <!-- <link rel="stylesheet" href="css_files/gallery.css" /> -->
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.20/dist/lenis.css" />
     <link rel="stylesheet"
@@ -19,13 +22,14 @@
 
 <body>
     <div id="main">
+        
         <!-- languages section -->
         <div id="languages-section">
             <div id="closing" style="opacity: 0">
                 <span style="font-size: 100px" id="closing-span">&#10008;</span>
             </div>
             <div id="languages">
-                <h1>Choose Language</h1>
+                <h1 id="content101">Choose Language</h1>
                 <div id="language">
                     <h2 value="english" id="english-option">English</h2>
                     <h2 value="hindi" id="hindi-option">हिंदी</h2>
@@ -38,28 +42,28 @@
         <!-- resources absolute page -->
         <div id="nav-resources-sub-options">
             <div id="nav-resources-div">
-                <h3>Resources</h3>
+                <h3 id="content102">Resources</h3>
             </div>
 
             <div id="nav-resources-links">
                 <h4>
                     <a href="#"><span class="material-symbols-outlined">library_books</span>
-                        <span>Audio Books</span></a>
+                        <span id="content103">Audio Books</span></a>
                 </h4>
                 <h4>
                     <a href="#"><span class="material-symbols-outlined">video_library</span>
-                        <span>Video</span></a>
+                        <span id="content104">Video</span></a>
                 </h4>
                 <h4>
                     <a href="#"><span class="material-symbols-outlined">download</span>
-                        <span>Notes Download</span></a>
+                        <span id="content105">Notes Download</span></a>
                 </h4>
             </div>
 
             <div id="nav-resources-closing">
                 <h4>
                     <a href="#"><span class="material-symbols-outlined">close</span>
-                        <span>Close</span></a>
+                        <span id="content106">Close</span></a>
                 </h4>
             </div>
         </div>
@@ -67,8 +71,9 @@
 
         <!-- Page 1 content -->
         <div id="page1">
-            <!-- nav bar desktop -->
-            <nav>
+           
+             <!-- nav bar desktop -->
+             <nav>
                 <a href="index.html">
                     <img src="images/vp-logo.png" alt="" id="nav-img" />
                 </a>
@@ -76,43 +81,43 @@
                     <h4>
                         <a href="index.html">
                             <span class="material-symbols-outlined">home</span>
-                            <span style="font-size: 1.2vw" >Home</span>
+                            <span style="font-size: 1.2vw" id="content107">Home</span>
                         </a>
                     </h4>
                     <h4>
                         <a href="about.html">
                             <span class="material-symbols-outlined">info</span>
-                            <span style="font-size: 1.2vw" >About</span>
+                            <span style="font-size: 20px" id="content108">About</span>
                         </a>
                     </h4>
                     <h4>
                         <a href="#" id="language-toggle">
                             <span class="material-symbols-outlined">language</span>
-                            <span style="font-size: 1.2vw">Language</span>
+                            <span style="font-size: 1.2vw" id="content109">Language</span>
                         </a>
                     </h4>
                     <h4>
                         <a href="contact.html">
                             <span class="material-symbols-outlined">contact_page</span>
-                            <span style="font-size: 1.2vw" >Contact</span>
+                            <span style="font-size: 1.2vw" id="content110">Contact</span>
                         </a>
                     </h4>
                     <h4 class="nav-resources-section">
                         <a href="#">
                             <span class="material-symbols-outlined">video_library</span>
-                            <span style="font-size: 1.2vw" >Resources</span>
+                            <span style="font-size: 1.2vw" id="content111">Resources</span>
                         </a>
                     </h4>
                     <h4 class="nav-dashboard-section" id="dashboard-section">
                         <a href="dashboard.html">
                             <span class="material-symbols-outlined">dashboard</span>
-                            <span>Dashboard</span>
+                            <span style="font-size: 1.2vw" id="content112">Dashboard</span>
                         </a>
                     </h4>
                     <h4 class="nav-dashboard-section" id="login-section">
                         <a href="login1.html">
                             <span class="material-symbols-outlined">login</span>
-                            <span>Login</span>
+                            <span style="font-size: 1.2vw"  id="content113">Login</span>
                         </a>
                     </h4>
                 </div>
@@ -125,13 +130,13 @@
             <!-- nav bar mobile -->
             <div id="nav-part3">
                 <div id="mobile-nav">
-                    <h5><a href="index.html">Home</a></h5>
-                    <h5><a href="about.html">About</a></h5>
+                    <h5><a href="index.html"><span id="content114">Home</span></a></h5>
+                    <h5><a href="about.html"><span id="content115">About</span></a></h5>
                     <h5>
-                        <a id="language-toggle1"><span >Languages</span></a>
+                        <a id="language-toggle1"><span id="content116">Languages</span></a>
                     </h5>
-                    <h5><a href="contact.html">Contact</a></h5>
-                    <h5><a href="register.html">Resources</a></h5>
+                    <h5><a href="contact.html"><span id="content117">Contact</span></a></h5>
+                    <h5><a href="register.html"><span id="content118">Resources</span></a></h5>
                 </div>
             </div>
             <!-- nav bar mobile end -->
@@ -187,11 +192,11 @@
                         enhances overall health. Yoga sessions, physical exercise programs, and stress management
                         workshops help employees stay active and mentally balanced. Encouraging such initiatives fosters
                         a positive work environment, reducing absenteeism and promoting long-term well-being.</p>
-                    <p id="content7">A balanced diet is essential for maintaining good health and energy levels. Workplace wellness
+                    <!-- <p id="content7">A balanced diet is essential for maintaining good health and energy levels. Workplace wellness
                         programs can include nutritional awareness sessions, healthy meal options, and guidance on
                         proper eating habits. Educating employees about nutrition helps them make better food choices,
                         leading to improved focus, higher productivity, and overall well-being.</p>
-
+ -->
 
                 </div>
             </div>
@@ -390,32 +395,58 @@
         <!-- Page 2 content end -->
 
         <!-- Page 5 content -->
-        <div id="page5"></div>
+        <div id="page8">
+            <div id="footer-top">
+                <div id="footer-socials">
+                    <div id="footer-media">
+                        <i class="fa-brands fa-instagram fa-2x"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+        
+                    <div id="footer-copyrights">
+                        <h4>© 2025 Vidyalankar Polytechnic. All Rights Reserved.</h4>
+                    </div>
+        
+                    <div id="footer-links">
+                        <a href="privacypolicy.html">Privacy Policy</a>
+                        <a href="gallery.html">Gallery</a>
+                    </div>
+                </div>
+        
+                <div id="footer-domains">
+                    <a href="girlseducation.html">01: Girls Education</a>
+                    <a href="primaryEducation.html">02: Primary Education</a>
+                    <a href="UnprivilegedStudentsWellfare.html">03: Unprivileged Students Welfare</a>
+                    <a href="physicalHealth.html">04: Physical Health</a>
+                    <a href="mentalHealth.html">05: Mental Health</a>
+                    <a href="environment.html">06: Environment</a>
+                    <a href="digitalLiteracy.html">07: Digital Literacy</a>
+                    <a href="anti-narcotics.html">08: Antinarcotics</a>
+                </div>
+            </div>
+        
+            <div id="footer-down">
+                <div class="group1">
+                    <img src="All domains Images/All Logos/5.png" alt="" class="footer-down-image" />
+                    <img src="All domains Images/All Logos/4.png" alt="" class="footer-down-image"/>
+                    <h6>Sponsors</h6>
+                </div>
+        
+                <div class="group2">
+                    <h6>Sponsors</h6>
+                    <img src="images/redbox logo.png" alt="" class="footer-down-image"  />
+                    <img src="images/dads in town logo.png" alt="" class="footer-down-image"  />
+                </div>
+            </div>
+        </div>
         <!-- Page 5 content ends -->
     </div>
 
-    <!-- Footer Section -->
-    <div id="footer">
-        <div id="footer-div">
-            <h4 >
-                SanChi <br />
-                Education <br />
-                for Girls
-            </h4>
-        </div>
-        <h1 >SanChi</h1>
-        <div id="footer-bottom">
-            <h4>Copyright: @SanChi Team</h4>
-            <h4>Girs Education Commitee</h4>
-            <h4>Vidyalankar Polytechnic</h4>
-            <h4>RedBox Agency</h4>
-        </div>
-    </div>
+  
 
-    <!-- Footer Section -->
     <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- <script src="first.js"></script> -->
     <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
     <script src="https://files.bpcontent.cloud/2025/01/15/19/20250115191515-LBSDTJT5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
