@@ -73,6 +73,8 @@ const content = {
     content70: `<u>Visio</u>n &&nbsp; <u>Missio</u>n`,
     content71: `<u>Our</u> &nbsp; <u>Tea</u>m`,
     content72: `<u>Our</u> &nbsp; <u>Con</u>tributions`,
+    content73: "Prof. hemangi Naikare",
+    content74: "Convenor og Volunteering Committee",
 
   },
   
@@ -150,6 +152,8 @@ const content = {
     content70: "दृष्टिकोण और लक्ष्य |",
     content71: "हमारी टीम |",
     content72: "हमारा योगदान |",
+    content73: "प्रो. हेमांगी नायकरे",
+    content74: "स्वयंसेवी समिति का संयोजक",
   },
   marathi: {
     content0: "SanChi",
@@ -225,6 +229,8 @@ const content = {
     content70: "दृष्टिकोन आणि लक्ष्य |",
     content71: "आमची टीम |",
     content72: "आमचा योगदान |",
+    content73: "प्रो. हेमांगी नायकरे",
+    content74: "स्वयंसेवी समितीची संयोजक",
 
     
   }
