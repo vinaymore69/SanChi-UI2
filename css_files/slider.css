@@ -2,7 +2,7 @@
 
 .swiper {
     width: 100vw;
-    height: 75vh;
+    height: 90vh;
     margin: 2vh auto;
 }
 
@@ -62,8 +62,8 @@
 /* Mobile View */
 @media (max-width: 768px) {
     .swiper {
-        height: 30vh;
-        width: 140vw;
+        height: 50vh;
+        width: 180vw;
     }
 
     .swiper-slide {
