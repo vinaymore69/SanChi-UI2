@@ -346,3 +346,34 @@ nav{
     transition: all 0.3s ease-in-out;   
 }
 }
+
+
+
+/* back top */
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 7vw;
+    right: 1.9vw;
+    display: none;
+    z-index: 999999999;
+    background-color: rgba(204, 255, 211, 0.511);
+    border: none;
+    border-radius: 50vw;
+    padding: 1.3vw 1.5vw;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 50vw;
+    -moz-border-radius: 50vw;
+    -ms-border-radius: 50vw;
+    -o-border-radius: 50vw;
+    font-size: 1vw;
+    color: #09431c;
+}
+  
+
+#btn-back-to-top:hover {
+    background-color: #1d6d3c;
+    color: white;
+}
+/* back top end */
