@@ -256,20 +256,6 @@ const content = {
   });
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   document.addEventListener("DOMContentLoaded", function () {
       var grid = document.querySelector('.masonry-gallery');
       var msnry = new Masonry(grid, {
