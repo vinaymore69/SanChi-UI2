@@ -49,59 +49,53 @@ const content = {
                         grow. At SanChi, we are committed to breaking down barriers in education, ensuring that no one
                         is left behind, and building a future where learning knows no limits.`,
     content20: ` Our qualified and experienced team`,
-    content21:`01: Sangeeta Wankhede & 02: Chetashri Bhusari </br>
+    content21: `01: Sangeeta Wankhede & 02: Chetashri Bhusari </br>
                Masters in Computer Engeneering <br/>
                Teaching Experience of 20 years 
                `,
     content22: `Resources from us`,
-    content23:`When You Educate a Girl, You Transform a Nation!`,
-    content24:`Join Us and Be a Part of Her Journey to Empowerment!`,
-    content25:`connent with us`,
+    content23: `When You Educate a Girl, You Transform a Nation!`,
+    content24: `Join Us and Be a Part of Her Journey to Empowerment!`,
+    content25: `connent with us`,
 
+    // menu english
+    content101: `Choose Language`,
+    content102: `Resources`,
+    content103: `Audio Books`,
+    content104: `Video`,
+    content105: `Notes Download`,
+    content106: `Close`,
+    content107: `Home`,
+    content108: `About`,
+    content109: `Language`,
+    content110: `Contact`,
+    content111: `Resources`,
+    content112: `Dashboard`,
+    content113: `Login`,
+    content114: `Home`,
+    content115: `About`,
+    content116: `Languages`,
+    content117: `Contact`,
+    content118: `Resources`,
 
+    // menu end
 
-    
-// menu english
-content101:`Choose Language`,
-content102:`Resources`,
-content103:`Audio Books`,
-content104:`Video`,
-content105:`Notes Download`,
-content106:`Close`,
-content107:`Home`,
-content108:`About`,
-content109:`Language`,
-content110:`Contact`,
-content111:`Resources`,
-content112:`Dashboard`,
-content113:`Login`,
-content114:`Home`,
-content115:`About`,
-content116:`Languages`,
-content117:`Contact`,
-content118:`Resources`,
+    // Footer
+    content201: `© 2025 Vidyalankar Polytechnic. All Rights Reserved.`,
+    content202: `Privacy Policy`,
+    content203: `Gallery`,
+    content204: `01: Girls Education`,
+    content205: `Innovators`,
+    content206: `Sponcers`,
+    content207: `02: Primary Education`,
+    content208: `03: Unprivileged Students Welfare`,
+    content209: `04: Physical Health`,
+    content210: `05: Mental Health`,
+    content211: `06: Environment`,
+    content212: `07: Digital Literacy`,
+    content213: `08: Antinarcoitics`,
 
-// menu end
-
-
-
-
-// Footer 
-content201: `© 2025 Vidyalankar Polytechnic. All Rights Reserved.`,
-content202: `Privacy Policy`,
-content203: `Gallery`,
-content204: `01: Girls Education`,
-content205: `Innovators`,
-content206: `Sponcers`,
-content207:`02: Primary Education`,
-content208:`03: Unprivileged Students Welfare`,
-content209: `04: Physical Health`,
-content210: `05: Mental Health`,
-content211: `06: Environment`,
-content212:  `07: Digital Literacy`,
-content213:  `08: Antinarcoitics`,
-
-// Footer end
+    // Footer end
   },
   hindi: {
     content2: `एक लड़की को शिक्षित करना उसे खुद के लिए और अपने समुदाय के लिए एक बेहतर भविष्य बनाने की शक्ति प्रदान करता है।`,
@@ -152,58 +146,51 @@ content213:  `08: Antinarcoitics`,
                         लिए प्रतिबद्ध हैं, सुनिश्चित करते हैं कि कोई भी पीछे न रहे, और एक भविष्य बनाते हैं
                         जहां शिक्षा की कोई सीमा नहीं है।`,
     content20: `हमारी योग्य और अनुभवी टीम`,
-    content21:`01: संगीता वानखेड़े और 02: चेतश्री भुसारी </br>
+    content21: `01: संगीता वानखेड़े और 02: चेतश्री भुसारी </br>
 कंप्यूटर इंजीनियरिंग में स्नातकोत्तर <br/>
 20 वर्षों का शिक्षण अनुभव`,
     content22: `हमसे संसाधन`,
-    content23:`जब आप एक लड़की को शिक्षित करते हैं, तो आप एक राष्ट्र को परिवर्तित करते हैं!`,
-    content24:`हमारे साथ जुड़ें और उसके सशक्तिकरण की यात्रा का हिस्सा बनें!`,
-    content25:`हमारे साथ जुड़ें`,
+    content23: `जब आप एक लड़की को शिक्षित करते हैं, तो आप एक राष्ट्र को परिवर्तित करते हैं!`,
+    content24: `हमारे साथ जुड़ें और उसके सशक्तिकरण की यात्रा का हिस्सा बनें!`,
+    content25: `हमारे साथ जुड़ें`,
 
+    // menu hindi
+    content101: `भाषा चुनें`,
+    content102: `संसाधन`,
+    content103: `ऑडियो पुस्तकें`,
+    content104: `वीडियो`,
+    content105: `नोट्स डाउनलोड`,
+    content106: `बंद करें`,
+    content107: `होम`,
+    content108: `परिचय`,
+    content109: `भाषा`,
+    content110: `संपर्क`,
+    content111: `संसाधन`,
+    content112: `डैशबोर्ड`,
+    content113: `लॉगिन`,
+    content114: `होम`,
+    content115: `परिचय`,
+    content116: `भाषाएँ`,
+    content117: `संपर्क`,
+    content118: `संसाधन`,
+    // menu end
 
-// menu hindi
-content101:`भाषा चुनें`,
-content102:`संसाधन`,
-content103:`ऑडियो पुस्तकें`,
-content104:`वीडियो`,
-content105:`नोट्स डाउनलोड`,
-content106:`बंद करें`,
-content107:`होम`,
-content108:`परिचय`,
-content109:`भाषा`,
-content110:`संपर्क`,
-content111:`संसाधन`,
-content112:`डैशबोर्ड`,
-content113:`लॉगिन`,
-content114:`होम`,
-content115:`परिचय`,
-content116:`भाषाएँ`,
-content117:`संपर्क`,
-content118:`संसाधन`,
-// menu end
+    // footer
+    content201: `© 2025 विद्यालंकार पॉलिटेक्निक। सर्वाधिकार सुरक्षित।`,
+    content202: `गोपनीयता नीति`,
+    content203: `गैलरी`,
+    content204: `01: लड़कियों की शिक्षा`,
+    content205: `आविष्कारक`,
+    content206: `स्पॉन्सर्स`,
+    content207: `02: प्राथमिक शिक्षा`,
+    content208: `03: असहाय छात्र कल्याण`,
+    content209: `04: शारीरिक स्वास्थ्य`,
+    content210: `05: मानसिक स्वास्थ्य`,
+    content211: `06: पर्यावरण`,
+    content212: `07: डिजिटल साक्षरता`,
+    content213: `08: एंटीनार्कोटिक्स`,
 
-
-
-// footer
-content201: `© 2025 विद्यालंकार पॉलिटेक्निक। सर्वाधिकार सुरक्षित।`,
-content202: `गोपनीयता नीति`,
-content203: `गैलरी`,
-content204: `01: लड़कियों की शिक्षा`,
-content205: `आविष्कारक`,
-content206: `स्पॉन्सर्स`,
-content207:`02: प्राथमिक शिक्षा`,
-content208:`03: असहाय छात्र कल्याण`,
-content209: `04: शारीरिक स्वास्थ्य`,
-content210: `05: मानसिक स्वास्थ्य`,
-content211: `06: पर्यावरण`,
-content212:  `07: डिजिटल साक्षरता`,
-content213:  `08: एंटीनार्कोटिक्स`,
-
-
-// footer end
-
-
-
+    // footer end
   },
   marathi: {
     content2: ` एका मुलगीला शिक्षित करणे तिच्यासाठी आणि तिच्या समुदायासाठी एक उत्तम भविष्य तयार करण्याची शक्ती देते.`,
@@ -251,57 +238,51 @@ content213:  `08: एंटीनार्कोटिक्स`,
                         सुनिश्चित करतो की कोणतीही पीछे न राहते, आणि एक भविष्य तयार करतो जिथे शिक्षणाची कोणतीही
                         सीमा नाही.`,
     content20: `आमची योग्य आणि अनुभवी टीम`,
-    content21:`०१: संगीता वानखेडे आणि ०२: चेतश्री भुसारी </br>
+    content21: `०१: संगीता वानखेडे आणि ०२: चेतश्री भुसारी </br>
 संगणक अभियांत्रिकीमध्ये पदव्युत्तर पदवी <br/>
 २० वर्षांचा अध्यापन अनुभव`,
     content22: `संसाधनांसह संपर्क साधा`,
-    content23:`जेव्हा आपण एक मुलगीला शिक्षित करता, तेव्हा आपण एक राष्ट्राला बदलता!`,
-    content24:`आमच्याशी संपर्क साधा आणि त्याच्या सशक्तिकरणाच्या यात्रेचा एक भाग बना!`,
-    content25:`आमच्याशी संपर्क साधा`,
+    content23: `जेव्हा आपण एक मुलगीला शिक्षित करता, तेव्हा आपण एक राष्ट्राला बदलता!`,
+    content24: `आमच्याशी संपर्क साधा आणि त्याच्या सशक्तिकरणाच्या यात्रेचा एक भाग बना!`,
+    content25: `आमच्याशी संपर्क साधा`,
 
+    // menu marathi
+    content101: `भाषा निवडा`,
+    content102: `संसाधने`,
+    content103: `ऑडिओ पुस्तके`,
+    content104: `व्हिडिओ`,
+    content105: `नोट्स डाउनलोड`,
+    content106: `बंद करा`,
+    content107: `होम`,
+    content108: `आमच्याबद्दल`,
+    content109: `भाषा`,
+    content110: `संपर्क`,
+    content111: `संसाधने`,
+    content112: `डॅशबोर्ड`,
+    content113: `लॉगिन`,
+    content114: `होम`,
+    content115: `आमच्याबद्दल`,
+    content116: `भाषा`,
+    content117: `संपर्क`,
+    content118: `संसाधने`,
+    // menu end
 
+    // footer
+    content201: `© 2025 विद्यालंकार पॉलिटेक्निक। सर्व हक्क राखीवून ठेवले गेले आहेत।`,
+    content202: `गोपनीयता धोरण`,
+    content203: `गॅलरी`,
+    content204: `01: मुलगीची शिक्षण`,
+    content205: `आविष्कारक`,
+    content206: `प्रायोजक`,
+    content207: `02: प्राथमिक शिक्षण`,
+    content208: `03: असहाय विद्यार्थी कल्याण`,
+    content209: `04: शारीरिक आरोग्य`,
+    content210: `05: मानसिक आरोग्य`,
+    content211: `06: पर्यावरण`,
+    content212: `07: डिजिटल साक्षरता`,
+    content213: `08: एंटीनार्कोटिक्स`,
 
-    
-// menu marathi
-content101:`भाषा निवडा`,
-content102:`संसाधने`,
-content103:`ऑडिओ पुस्तके`,
-content104:`व्हिडिओ`,
-content105:`नोट्स डाउनलोड`,
-content106:`बंद करा`,
-content107:`होम`,
-content108:`आमच्याबद्दल`,
-content109:`भाषा`,
-content110:`संपर्क`,
-content111:`संसाधने`,
-content112:`डॅशबोर्ड`,
-content113:`लॉगिन`,
-content114:`होम`,
-content115:`आमच्याबद्दल`,
-content116:`भाषा`,
-content117:`संपर्क`,
-content118:`संसाधने`,
-// menu end
-
-
-// footer
-content201: `© 2025 विद्यालंकार पॉलिटेक्निक। सर्व हक्क राखीवून ठेवले गेले आहेत।`,
-content202: `गोपनीयता धोरण`,
-content203: `गॅलरी`,
-content204: `01: मुलगीची शिक्षण`,
-content205: `आविष्कारक`,
-content206: `प्रायोजक`,
-content207:`02: प्राथमिक शिक्षण`,
-content208:`03: असहाय विद्यार्थी कल्याण`,
-content209: `04: शारीरिक आरोग्य`,
-content210: `05: मानसिक आरोग्य`,
-content211: `06: पर्यावरण`,
-content212:  `07: डिजिटल साक्षरता`,
-content213:  `08: एंटीनार्कोटिक्स`,
-
-
-// foter end
-
+    // foter end
   },
 };
 
@@ -386,112 +367,88 @@ document.addEventListener("DOMContentLoaded", () => {
   updateLanguage(language);
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 document.addEventListener("DOMContentLoaded", function () {
-    var grid = document.querySelector('.masonry-gallery');
-    var msnry = new Masonry(grid, {
-        itemSelector: 'img',
-        columnWidth: '.grid-sizer',
-        gutter: 10,
-        fitWidth: true
-    });
+  var grid = document.querySelector(".masonry-gallery");
+  var msnry = new Masonry(grid, {
+    itemSelector: "img",
+    columnWidth: ".grid-sizer",
+    gutter: 10,
+    fitWidth: true,
+  });
 });
 
-
-
 document.addEventListener("DOMContentLoaded", function () {
-    const images = document.querySelectorAll(".masonry img");
-    const lightbox = document.createElement("div");
-    lightbox.id = "lightbox";
-    document.body.appendChild(lightbox);
+  const images = document.querySelectorAll(".masonry img");
+  const lightbox = document.createElement("div");
+  lightbox.id = "lightbox";
+  document.body.appendChild(lightbox);
 
-    images.forEach(image => {
-        image.addEventListener("click", function () {
-            lightbox.classList.add("active");
-            const img = document.createElement("img");
-            img.src = image.src;
-            lightbox.innerHTML = ""; // Clear previous images
-            lightbox.appendChild(img);
-        });
+  images.forEach((image) => {
+    image.addEventListener("click", function () {
+      lightbox.classList.add("active");
+      const img = document.createElement("img");
+      img.src = image.src;
+      lightbox.innerHTML = ""; // Clear previous images
+      lightbox.appendChild(img);
     });
+  });
 
-    lightbox.addEventListener("click", function () {
-        lightbox.classList.remove("active");
-    });
+  lightbox.addEventListener("click", function () {
+    lightbox.classList.remove("active");
+  });
 });
-
-
 
 gsap.from("#page1 #scroll-img", {
-    scale: 0,
-    duration: 2,
-    ease: "power3.out",
-    scrollTrigger: {
-        trigger: "#page1 #scroll-img",
-        start: "top 90%", // Start animation when the element is 80% in view
-        end: "top 20%",
-        scrub: true, // Smooth animation linked to scroll
-        // markers:true
-    }
+  scale: 0,
+  duration: 2,
+  ease: "power3.out",
+  scrollTrigger: {
+    trigger: "#page1 #scroll-img",
+    start: "top 90%", // Start animation when the element is 80% in view
+    end: "top 20%",
+    scrub: true, // Smooth animation linked to scroll
+    // markers:true
+  },
 });
 
 gsap.utils.toArray(".item").forEach((item) => {
-    gsap.from(item, {
-        y: -20, // Moves item up by 20px before animation
-        opacity: 0, // Optional: Fade in effect
-        duration: 1, // Optional: Smooth effect
-        ease: "power3.out",
-        scrollTrigger: {
-            trigger: item,
-            start: "top 90%", // Starts animation when 90% of viewport
-            end: "top 20%",   // Ends animation at 20% of viewport
-            scrub: 1,         // Smooth animation on scroll
-            // markers: true // Enable markers for debugging
-        }
-    });
+  gsap.from(item, {
+    y: -20, // Moves item up by 20px before animation
+    opacity: 0, // Optional: Fade in effect
+    duration: 1, // Optional: Smooth effect
+    ease: "power3.out",
+    scrollTrigger: {
+      trigger: item,
+      start: "top 90%", // Starts animation when 90% of viewport
+      end: "top 20%", // Ends animation at 20% of viewport
+      scrub: 1, // Smooth animation on scroll
+      // markers: true // Enable markers for debugging
+    },
+  });
 });
-
-
-
-
-
 
 var path = "M 0 200 Q 825 200 1650 200";
 var finalPath = "M 0 200 Q 825 200 1650 200";
 var string = document.querySelector("#string2");
 
 string.addEventListener("mousemove", function (dets) {
-    var rect = string.getBoundingClientRect();
-    var x = dets.clientX - rect.left; 
-    var y = dets.clientY - rect.top; 
+  var rect = string.getBoundingClientRect();
+  var x = dets.clientX - rect.left;
+  var y = dets.clientY - rect.top;
 
-    path = `M 0 200 Q ${x} ${y} 1650 200`;
+  path = `M 0 200 Q ${x} ${y} 1650 200`;
 
-    gsap.to("svg path", {
-        attr: { d: path },
-        duration: 0.3,
-        ease: "power3.out"
-    });
+  gsap.to("svg path", {
+    attr: { d: path },
+    duration: 0.3,
+    ease: "power3.out",
+  });
 });
 
 string.addEventListener("mouseleave", function () {
-    gsap.to("svg path", {
-        attr: { d: finalPath },
-        duration: 1.5,
-        ease: "elastic.out(1,0.2)"
-    });
+  gsap.to("svg path", {
+    attr: { d: finalPath },
+    duration: 1.5,
+    ease: "elastic.out(1,0.2)",
+  });
 });

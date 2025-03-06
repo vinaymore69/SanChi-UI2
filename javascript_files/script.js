@@ -156,14 +156,14 @@ The committee collaborates with different NGOs to focus on important areas like 
 
 
 
-        
+        // FOOTER CONTENT HINDI START
         content201: `© 2025 विद्यालंकार पॉलिटेक्निक। सर्वाधिकार सुरक्षित।`,
         content202: `गोपनीयता नीति`,
         content203: `गैलरी`,
         content204: `"स्वयंसेवा मानव होने की मूल आत्मा में है। किसी ने भी जीवन में बिना किसी अन्य की मदद के नहीं चला है।" — हेदर फ्रेंच हेनरी`,
         content205: `नवाचारी`,
         content206: `प्रायोजक`,
-
+        // FOOTER CONTENT HINDI END 
     },
     marathi: {
         // content0: 'सांची',

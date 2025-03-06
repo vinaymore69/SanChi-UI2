@@ -84,6 +84,26 @@ content118:`Resources`,
 
 // menu end
 
+
+  // Footer
+  content201: `© 2025 Vidyalankar Polytechnic. All Rights Reserved.`,
+  content202: `Privacy Policy`,
+  content203: `Gallery`,
+  content204: `01: Girls Education`,
+  content205: `Innovators`,
+  content206: `Sponcers`,
+  content207: `02: Primary Education`,
+  content208: `03: Unprivileged Students Welfare`,
+  content209: `04: Physical Health`,
+  content210: `05: Mental Health`,
+  content211: `06: Environment`,
+  content212: `07: Digital Literacy`,
+  content213: `08: Antinarcoitics`,
+
+  // Footer end
+
+
+
   },
   hindi: {
     content1: `शारीरिक स्वास्थ्य और तंदुरुस्ती शक्ति और जीवन शक्ति का पोषण करती है, तथा व्यक्तियों को सक्रिय और संतुष्ट जीवन जीने के लिए सशक्त बनाती है।`,
@@ -133,6 +153,27 @@ content116:`भाषाएँ`,
 content117:`संपर्क`,
 content118:`संसाधन`,
 // menu end
+
+
+
+  // footer
+  content201: `© 2025 विद्यालंकार पॉलिटेक्निक। सर्वाधिकार सुरक्षित।`,
+  content202: `गोपनीयता नीति`,
+  content203: `गैलरी`,
+  content204: `01: लड़कियों की शिक्षा`,
+  content205: `आविष्कारक`,
+  content206: `स्पॉन्सर्स`,
+  content207: `02: प्राथमिक शिक्षा`,
+  content208: `03: असहाय छात्र कल्याण`,
+  content209: `04: शारीरिक स्वास्थ्य`,
+  content210: `05: मानसिक स्वास्थ्य`,
+  content211: `06: पर्यावरण`,
+  content212: `07: डिजिटल साक्षरता`,
+  content213: `08: एंटीनार्कोटिक्स`,
+
+  // footer end
+
+
 
 
   },
@@ -204,6 +245,26 @@ content116:`भाषा`,
 content117:`संपर्क`,
 content118:`संसाधने`,
 // menu end
+
+
+  // footer
+  content201: `© 2025 विद्यालंकार पॉलिटेक्निक। सर्व हक्क राखीवून ठेवले गेले आहेत।`,
+  content202: `गोपनीयता धोरण`,
+  content203: `गॅलरी`,
+  content204: `01: मुलगीची शिक्षण`,
+  content205: `आविष्कारक`,
+  content206: `प्रायोजक`,
+  content207: `02: प्राथमिक शिक्षण`,
+  content208: `03: असहाय विद्यार्थी कल्याण`,
+  content209: `04: शारीरिक आरोग्य`,
+  content210: `05: मानसिक आरोग्य`,
+  content211: `06: पर्यावरण`,
+  content212: `07: डिजिटल साक्षरता`,
+  content213: `08: एंटीनार्कोटिक्स`,
+
+  // foter end
+
+
   },
 };
 

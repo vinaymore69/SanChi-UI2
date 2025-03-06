@@ -56,7 +56,24 @@ const content = {
     content21: `Reach out to us`,
     content22: `Stay Strong, Stay Drug-Free. Choose Life Over Addiction.`,
     content23: `Contact us today to enquire about our services or to book an appointment`,
-    content24: `Contact us`
+    content24: `Contact us`,
+
+       // Footer
+       content201: `© 2025 Vidyalankar Polytechnic. All Rights Reserved.`,
+       content202: `Privacy Policy`,
+       content203: `Gallery`,
+       content204: `01: Girls Education`,
+       content205: `Innovators`,
+       content206: `Sponcers`,
+       content207: `02: Primary Education`,
+       content208: `03: Unprivileged Students Welfare`,
+       content209: `04: Physical Health`,
+       content210: `05: Mental Health`,
+       content211: `06: Environment`,
+       content212: `07: Digital Literacy`,
+       content213: `08: Antinarcoitics`,
+   
+       // Footer end
   },
   hindi: {
     content1: `नशे के खतरों के बारे में युवाओं को शिक्षित करना उन्हें बेहतर विकल्प चुनने के लिए सशक्त बनाता है।`,
@@ -84,7 +101,28 @@ const content = {
     content21: `हमसे संपर्क करें`,
     content22: `मजबूत रहें, ड्रग-फ्री रहें। लत के बजाय जीवन चुनें।`,
     content23: `हमारी सेवाओं के बारे में पूछताछ करने या अपॉइंटमेंट बुक करने के लिए आज ही हमसे संपर्क करें।`,
-    content24: `हमसे संपर्क करें`
+    content24: `हमसे संपर्क करें`,
+
+
+
+        // footer
+        content201: `© 2025 विद्यालंकार पॉलिटेक्निक। सर्वाधिकार सुरक्षित।`,
+        content202: `गोपनीयता नीति`,
+        content203: `गैलरी`,
+        content204: `01: लड़कियों की शिक्षा`,
+        content205: `आविष्कारक`,
+        content206: `स्पॉन्सर्स`,
+        content207: `02: प्राथमिक शिक्षा`,
+        content208: `03: असहाय छात्र कल्याण`,
+        content209: `04: शारीरिक स्वास्थ्य`,
+        content210: `05: मानसिक स्वास्थ्य`,
+        content211: `06: पर्यावरण`,
+        content212: `07: डिजिटल साक्षरता`,
+        content213: `08: एंटीनार्कोटिक्स`,
+    
+        // footer end
+
+
   },
   marathi: {
     content1: `युवकांना ड्रगच्या धोक्यांविषयी शिक्षित करणे त्यांना चांगले निर्णय घेण्यासाठी सशक्त बनवते.`,
@@ -112,7 +150,26 @@ const content = {
     content21: `आमच्याशी संपर्क करा`,
     content22: `मजबूत रहा, ड्रग-फ्री रहा. लतच्या ऐवजी जीवन निवडा.`,
     content23: `आमच्या सेवांबद्दल विचारण्यासाठी किंवा अपॉइंटमेंट बुक करण्यासाठी आजच आमच्याशी संपर्क करा.`,
-    content24: `आमच्याशी संपर्क करा`
+    content24: `आमच्याशी संपर्क करा`,
+
+    // footer
+    content201: `© 2025 विद्यालंकार पॉलिटेक्निक। सर्व हक्क राखीवून ठेवले गेले आहेत।`,
+    content202: `गोपनीयता धोरण`,
+    content203: `गॅलरी`,
+    content204: `01: मुलगीची शिक्षण`,
+    content205: `आविष्कारक`,
+    content206: `प्रायोजक`,
+    content207: `02: प्राथमिक शिक्षण`,
+    content208: `03: असहाय विद्यार्थी कल्याण`,
+    content209: `04: शारीरिक आरोग्य`,
+    content210: `05: मानसिक आरोग्य`,
+    content211: `06: पर्यावरण`,
+    content212: `07: डिजिटल साक्षरता`,
+    content213: `08: एंटीनार्कोटिक्स`,
+
+    // foter end
+
+
   }
 };
 

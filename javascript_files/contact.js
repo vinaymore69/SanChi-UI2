@@ -56,7 +56,7 @@ function updateFileName() {
     
 const content = {
     english: {
-        content0:'SanChi',
+        // content0:'SanChi',
         content1: 'First Name:',
         content2: 'Last Name:',
         content3: 'E-mail:',
@@ -74,9 +74,20 @@ const content = {
         content15: 'Contact',
         content16: 'Resources',
 
+
+
+        
+    content201: `© 2025 Vidyalankar Polytechnic. All Rights Reserved.`,
+    content202: `Privacy Policy`,
+    content203: `Gallery`,
+    content204: `Volunteering is at the very core of being a human. No one has made it through life without someone else's help. — Heather French Henry`,
+    content205: `Innovators`,
+    content206: `Sponcers`,
+    
+
     },
     hindi: {
-        content0:'सांची',
+        // content0:'सांची',
         content1: 'पहला नाम:',
         content2: 'अंतिम नाम:',
         content3: 'ईमेल:',
@@ -94,10 +105,19 @@ const content = {
         content15: 'संपर्क',
         content16: 'संसाधन',
 
+        
+        // FOOTER CONTENT HINDI START
+        content201: `© 2025 विद्यालंकार पॉलिटेक्निक। सर्वाधिकार सुरक्षित।`,
+        content202: `गोपनीयता नीति`,
+        content203: `गैलरी`,
+        content204: `"स्वयंसेवा मानव होने की मूल आत्मा में है। किसी ने भी जीवन में बिना किसी अन्य की मदद के नहीं चला है।" — हेदर फ्रेंच हेनरी`,
+        content205: `नवाचारी`,
+        content206: `प्रायोजक`,
+        // FOOTER CONTENT HINDI END 
     
     },
     marathi: {
-        content0:'सांची',
+        // content0:'सांची',
         content1: 'पहिलं नाव:',
         content2: 'आडनाव:',
         content3: 'ईमेल:',
@@ -115,7 +135,15 @@ const content = {
         content15: 'संपर्क',
         content16: 'साधने',
 
-          
+        // footer start marathi
+        content201: "© २०२५ विद्यालंकार पॉलिटेक्निक. सर्व हक्क राखीव",
+        content202: "गोपनीयता धोरण",
+        content203: "गॅलरी",
+        contnet204: `स्वयंसेवा ही मानव असण्याचा गाभा आहे. दुसऱ्याच्या मदतीशिवाय कोणीही आयुष्यात यशस्वी झालेले नाही. - हीदर फ्रेंच हेन्री`,
+        content205: "नवोन्मेषक",
+        content206: "प्रायोजक",
+        // footer start marathi
+
     }
 };
 
