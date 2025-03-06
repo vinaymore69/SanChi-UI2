@@ -96,6 +96,16 @@ The committee collaborates with different NGOs to focus on important areas like 
         content34: "06: Environment",
         content35: "07: Digital Literacy",
         content36: "08: Antinarcotics",
+
+
+
+
+        content201: `© 2025 Vidyalankar Polytechnic. All Rights Reserved.`,
+        content202: `Privacy Policy`,
+        content203: `Gallery`,
+        content204: `Volunteering is at the very core of being a human. No one has made it through life without someone else's help. — Heather French Henry`,
+        content205: `Innovators`,
+        content206: `Sponcers`,
     },
     hindi: {
         // content0: 'सांची',
@@ -116,7 +126,7 @@ The committee collaborates with different NGOs to focus on important areas like 
         content7: "03: वंचित छात्र कल्याण",
         content8: "04: शारीरिक स्वास्थ्य",
         content9: "05: मानसिक स्वास्थ्य",
-        content10: "&nbsp; मुखपृष्ठ &nbsp;",
+        content10: " &nbsp; मुखपृष्ठ &nbsp;",
         content11: "परिचय",
         content12: "&nbsp; भाषा &nbsp;",
         content13: "&nbsp; संपर्क करें &nbsp;",
@@ -142,7 +152,18 @@ The committee collaborates with different NGOs to focus on important areas like 
         // content33: "सांची - लड़कियों के लिए शिक्षा",
         content34: "06: पर्यावरण",
         content35: "07: डिजिटल साक्षरता",
-        content36: "08: मादक द्रव्य निरोधक"
+        content36: "08: मादक द्रव्य निरोधक",
+
+
+
+        
+        content201: `© 2025 विद्यालंकार पॉलिटेक्निक। सर्वाधिकार सुरक्षित।`,
+        content202: `गोपनीयता नीति`,
+        content203: `गैलरी`,
+        content204: `"स्वयंसेवा मानव होने की मूल आत्मा में है। किसी ने भी जीवन में बिना किसी अन्य की मदद के नहीं चला है।" — हेदर फ्रेंच हेनरी`,
+        content205: `नवाचारी`,
+        content206: `प्रायोजक`,
+
     },
     marathi: {
         // content0: 'सांची',
@@ -190,7 +211,16 @@ The committee collaborates with different NGOs to focus on important areas like 
         content32: "डॅड्सइनटाउन, रेडबॉक्सची मूळ कंपनी, संचीला पाठिंबा देते, शिक्षण आणि समावेशकतेला प्रोत्साहन देते. त्यांचे नवकल्पना व समाज विकासासाठीचे समर्पण विद्यार्थ्यांमध्ये आणि समाजात सकारात्मक बदल घडवते.",
         content34: "06: पर्यावरण",
         content35: "07: डिजिटल साक्षरता",
-        content36: "08: मादक द्रव्य निरोधक"
+        content36: "08: मादक द्रव्य निरोधक",
+
+
+
+        content201: `© २०२५ विद्यालंकार पॉलिटेक्निक. सर्व हक्क राखीव`,
+        content202: `गोपनीयता धोरण`,
+        content203: `गॅलरी`,
+        content204: `"स्वयंसेवा ही मानव असण्याचा गाभा आहे. दुसऱ्याच्या मदतीशिवाय कोणीही आयुष्यात यशस्वी झालेले नाही." - हीदर फ्रेंच हेन्री`,
+        content205: `नवोन्मेषक`,
+        content206: `प्रायोजक`,
     }
 };
 

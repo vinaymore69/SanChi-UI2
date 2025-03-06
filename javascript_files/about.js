@@ -76,15 +76,26 @@ const content = {
     content73: "Prof. Hemangi Naikare",
     content74: "Convenor Volunteering Committee",
 
+
+
+
+    content201: `© 2025 Vidyalankar Polytechnic. All Rights Reserved.`,
+    content202: `Privacy Policy`,
+    content203: `Gallery`,
+    content204: `Volunteering is at the very core of being a human. No one has made it through life without someone else's help. — Heather French Henry`,
+    content205: `Innovators`,
+    content206: `Sponcers`,
+    
+
   },
   
   hindi: {
     // content0: "SanChi",
     content1: "हम क्यों मौजूद<br/> हैं |",
-    content2: "होम",
-    content3: "हमारे बारे में",
+    content2: "&nbsp; मुखपृष्ठ &nbsp;",
+    content3: "परिचय",
     content4: "भाषा",
-    content5: "संपर्क",
+    content5: "&nbsp; संपर्क करें &nbsp;",
     content6: "संसाधन",
     content7: "विद्यालंकार पॉलिटेक्निक की स्वयंसेवी समिति एक गतिशील छात्र-चालित संस्था है, जो कॉलेज के कार्यक्रमों, सामाजिक पहलों और सामुदायिक आउटरीच कार्यक्रमों के आयोजन एवं प्रबंधन में महत्वपूर्ण भूमिका निभाती है। सांस्कृतिक और तकनीकी महोत्सवों से लेकर जागरूकता अभियानों और कल्याण गतिविधियों तक, यह समिति नेतृत्व, टीमवर्क और सेवा की भावना को बढ़ावा देती है। स्वयंसेवक उत्साही ढंग से एक जीवंत और समावेशी परिसर वातावरण के निर्माण में योगदान देते हैं, जबकि कार्यक्रम समन्वय, सामाजिक जिम्मेदारी और पेशेवर नेटवर्किंग का व्यावहारिक अनुभव प्राप्त करते हैं।",
     content8: "अनुभाग पर जाएँ",
@@ -154,11 +165,22 @@ const content = {
     content72: "हमारा योगदान |",
     content73: "प्रो. हेमांगी नायकरे",
     content74: "स्वयंसेवी समिति का संयोजक",
+
+
+
+    content201: `© 2025 विद्यालंकार पॉलिटेक्निक। सर्वाधिकार सुरक्षित।`,
+    content202: `गोपनीयता नीति`,
+    content203: `गैलरी`,
+    content204: `स्वयंसेवा मानव होने की मूल आत्मा में है। किसी ने भी जीवन में बिना किसी अन्य की मदद के नहीं चला है। — हेदर फ्रेंच हेनरी`,
+    content205: `नवाचारी`,
+    content206: `प्रायोजक`,
+    
+
   },
   marathi: {
     content0: "SanChi",
     content1: "आम्ही का अस्तित्वात आहोत",
-    content2: "होम",
+    content2: "&nbsp; मुखपृष्ठ &nbsp;",
     content3: "आमच्याबद्दल",
     content4: "भाषा",
     content5: "संपर्क",
@@ -233,6 +255,12 @@ const content = {
     content74: "स्वयंसेवी समितीची संयोजक",
 
     
+    content201: "© २०२५ विद्यालंकार पॉलिटेक्निक. सर्व हक्क राखीव",
+    content202: "गोपनीयता धोरण",
+    content203: "गॅलरी",
+    contnet204: `स्वयंसेवा ही मानव असण्याचा गाभा आहे. दुसऱ्याच्या मदतीशिवाय कोणीही आयुष्यात यशस्वी झालेले नाही. - हीदर फ्रेंच हेन्री`,
+    content205: "नवोन्मेषक",
+    content206: "प्रायोजक",
   }
 
 
