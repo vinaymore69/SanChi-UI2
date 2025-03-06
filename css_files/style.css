@@ -60,6 +60,7 @@ html, body {
     border-radius: 30px;
     margin-top: 4vw;
     position: relative;
+
 }
 
 #hero-shape {
@@ -561,6 +562,10 @@ html, body {
 
         /* padding: 1vw 2vw; */
     }
+    #page1 > video{
+        height: 60vh;
+        object-fit: cover;
+    }
     #center {
         flex-direction: column;
         justify-content: flex-end;
@@ -774,7 +779,7 @@ html, body {
         font-weight: 450;
         margin-top: 5vw;
         font-size: 4vw;
-        line-height: 6.6vw;
+        line-height: 5.5vw;
         text-align: justify;
     }
     .brands-section{
