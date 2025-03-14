@@ -2,110 +2,530 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css_files/footer.css">
+  <link rel="stylesheet" href="/css_files/menu.css">
+  <link rel="stylesheet" href="/css_files/language.css">
+  <link rel="stylesheet" href="/css_files/footer.css">
+  <link rel="stylesheet" href="/css_files/domainFooter.css">
+  <title>Audio Subtitle Editor</title>
+  <link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu"
+/>
+<link
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+  rel="stylesheet"
+/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://unpkg.com/lenis@1.1.20/dist/lenis.css">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+/>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Tiro+Devanagari+Marathi:ital@0;1&display=swap');
 
-        body {
-            background-color: black;
-            color: white;
-            height: 100vh;
-            display: grid;
-            place-items: center;
-            font-family: Arial, sans-serif;
-        }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
 
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            font-size: 3vw;
-            font-weight: 600;
-            max-width: 90vw;
-            padding: 2vh;
-            text-align: center;
-        }
 
-        audio {
-            margin-top: 2vh;
-            width: 100%;
-            max-width: 60vw;
-        }
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
 
-        .textContainer {
-            margin-top: 2vh;
-            width: 100%;
-            max-width: 100vw;
-            text-align: justify;
-        }
+#main {
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+}
 
-        div {
-            padding-top: 5vh;
-        }
 
-        span {
-            opacity: 0.2;
-            transition: all 0.1s ease-in-out;
-        }
+#page1 {
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    padding: 0 2vw 2vw 2vw;
+    background-color: #ffffff;
+    margin-bottom: -1px;
+}
 
-        .active {
-            opacity: 1;
-            background: linear-gradient(129deg, rgba(24, 159, 74, 1) 4%, rgba(116, 215, 133, 1) 47%, rgba(208, 235, 217, 1) 91%);
-            /* -webkit-background-clip: text; */
-            -webkit-text-fill-color: transparent;
-            color: rgba(24, 159, 74, 1);
-            /* Fallback color */
-        }
 
-        .inactive {
-            opacity: 0.2;
-            color: white;
-        }
-    </style>
+.heading {
+    font-size: 5vw;
+    font-weight: 700;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    text-align: center;
+    color: #44ae50;
+    
+}
+#audio_file_name{
+ background-color: #ffffff;
+    color: #000000;
+    font-size: 2vw;
+    font-weight: 700;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    text-align: center;
+    color: #000000;
+    font-weight: 400;
+
+}
+.audio-section {
+    margin-top: 6vh;
+    margin-bottom: 5vh;
+    text-align: center;
+    font-size: large;
+}
+
+.subtitle-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5f5f5;
+    margin-bottom: 3vw;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.subtitle-preview {
+    width: 45%;
+    padding: 2vw;
+}
+
+.subtitle-editor {
+    width: 45%;
+    padding: 2vw;
+
+}
+
+.subtitle-input-group {
+    margin-bottom: 1vh;
+}
+
+.subtitle-input-group label {
+    font-size: 1vw;
+    font-weight: 500;
+    margin-bottom: 0.5vh;
+    margin-top: 2vw;
+
+}
+
+.subtitle-input-group input {
+    width: 80%;
+    padding: 1vh;
+    font-size: 1vw;
+    font-weight: 400;
+    /* border: 1px solid #000000; */
+    border-radius: 0.5vw;
+    background-color: transparent;
+    border: 0px solid;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(218, 218, 218, 0.3) 0px 18px 36px -18px inset;
+
+
+}
+
+#add-subtitle {
+    width: wrap;
+    padding: 0.5vw 1.3vw;
+    font-size: 1vw;
+    font-weight: 500;
+    border: 1px solid #afff72;
+    border-radius: 25px;
+    background-color: #45882f;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 2vh;
+    align-self: center;
+    transition: all 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+#add-subtitle:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+#subtitle-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.audio-name{
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 400;
+}
+
+.submit-btn{
+    width: wrap;
+    padding: 0.5vw 1.3vw;
+    font-size: 1vw;
+    font-weight: 500;
+    border: 1px solid #afff72;
+    border-radius: 25px;
+    background-color: #45882f;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 2vh;
+    align-self: center;
+    transition: all 0.3s ease-in-out;
+    display: block;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+audio{
+    width: wrap;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+  </style>
 </head>
 
 <body>
-    <div class="container">
-        <!-- <audio class="player" src="/uploads/audio/<%= filename %>" controls></audio> -->
-        <div class="textContainer"></div>
+
+
+    <button
+    type="button"
+    class="btn btn-danger btn-floating btn-lg"
+    id="btn-back-to-top"
+    >
+<i class="fas fa-arrow-up"></i>
+</button>
+<div id="languages-section">
+  <div id="closing" style="opacity: 0">
+    <span style="font-size: 100px" id="closing-span">&#10008;</span>
+  </div>
+  <div id="languages">
+    <h1>Choose Language</h1>
+    <div id="language">
+      <h2 value="english" id="english-option">English</h2>
+      <h2 value="hindi" id="hindi-option">हिंदी</h2>
+      <h2 value="marathi" id="marathi-option">मराठी</h2>
+    </div>
+  </div>
+</div>
+<div id="nav-resources-sub-options">
+  <div id="nav-resources-div">
+    <h3>Resources</h3>
+  </div>
+
+  <div id="nav-resources-links">
+    <h4>
+      <a href="#"
+        ><span class="material-symbols-outlined">library_books</span>
+        <span>Audio Books</span></a
+      >
+    </h4>
+    <h4>
+      <a href="#"
+        ><span class="material-symbols-outlined">video_library</span>
+        <span>Video</span></a
+      >
+    </h4>
+    <h4>
+      <a href="#"
+        ><span class="material-symbols-outlined">download</span>
+        <span>Notes Download</span></a
+      >
+    </h4>
+  </div>
+
+  <div id="nav-resources-closing">
+    <h4>
+      <a href="#"
+        ><span class="material-symbols-outlined">close</span>
+        <span>Close</span></a
+      >
+    </h4>
+  </div>
+</div>
+
+ <div id="main">
+
+
+
+
+    <div id="page1">
+        <nav>
+            <a href="index.html">
+              <img src="images/vp logo.png" alt="" id="nav-img" />
+            </a>
+            <div id="nav-part2">
+              <h4>
+                <a href="index.html">
+                  <span class="material-symbols-outlined">home</span>
+                  <span style="font-size: 1.2vw" id="content1">Home</span>
+                </a>
+              </h4>
+              <h4>
+                <a href="about.html">
+                  <span class="material-symbols-outlined">info</span>
+                  <span style="font-size: 1.2vw" id="content2">About</span>
+                </a>
+              </h4>
+              <h4>
+                <a href="#" id="language-toggle">
+                  <span class="material-symbols-outlined">language</span>
+                  <span style="font-size: 1.2vw" id="content3">Language</span>
+                </a>
+              </h4>
+              <h4>
+                <a href="contact.html">
+                  <span class="material-symbols-outlined">contact_page</span>
+                  <span style="font-size: 1.2vw" id="content4">Contact</span>
+                </a>
+              </h4>
+              <h4 class="nav-resources-section">
+                <a href="#">
+                  <span class="material-symbols-outlined">video_library</span>
+                  <span style="font-size: 1.2vw" id="content5">Resources</span>
+                </a>
+              </h4>
+              <h4 class="nav-dashboard-section" id="dashboard-section">
+                <a href="dashboard.html">
+                  <span class="material-symbols-outlined">dashboard</span>
+                  <span style="font-size: 1.2vw" id="content11">Dashboard</span>
+                </a>
+              </h4>
+              <h4 class="nav-dashboard-section" id="login-section">
+                <a href="login1.html">
+                  <span class="material-symbols-outlined">login</span>
+                  <span >Login</span>
+                </a>
+              </h4>
+            </div>
+            <div id="menu-icon">
+              <span class="material-symbols-outlined"> menu </span>
+            </div>
+          </nav>
+  
+          <div id="nav-part3">
+            <div id="mobile-nav">
+              <h5><a href="index.html">Home</a></h5>
+              <h5><a href="about.html">About</a></h5>
+              <h5>
+                <a id="language-toggle1"><span>Languages</span></a>
+              </h5>
+              <h5><a href="contact.html">Contact</a></h5>
+              <h5><a href="register.html">Resources</a></h5>
+            </div>
+          </div>
+
+
+
+
+        <h1 class="heading" id="content10">Audio Subtitle Editor</h1>
+
+    <h2 class="audio-name" id="content9">Editing</h2>
+    <h2 id="audio_file_name">
+      <%= audioFileName %>
+    </h2>
+    <form id="audio-subtitle-form" method="post">
+      <!-- Audio Player -->
+      <div class="audio-section">
+        <h2 id="content8">Audio Preview</h2>
+        <audio id="audio-player" controls>
+          <source src="<%= audioFilePath %>" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+
+      <!-- Subtitles -->
+      <div class="subtitle-container">
+        <div class="subtitle-preview">
+          <h2 id="content6">Subtitles Preview</h2>
+          <ul id="subtitle-list">
+            <!-- Subtitle preview items will be dynamically added here -->
+          </ul>
+        </div>
+
+        <div class="subtitle-editor">
+          <h2 id="content7">Edit Subtitles</h2>
+          <div id="subtitle-inputs">
+            <!-- Subtitle input fields dynamically added here -->
+          </div>
+          <button type="button" id="add-subtitle">Add Subtitle</button>
+        </div>
+      </div>
+
+      <button type="submit" class="submit-btn">Save Subtitles</button>
+    </form>
     </div>
 
-    <!-- <script>
-        const players = document.querySelector('.player');
-        const textContainer = document.querySelector('.textContainer');
-        const subtiles_path = "<%=subtitles_path%>";
 
-        fetch(`/uploads/subtitles/${subtiles_path}`)
-            .then(response => response.json()) // Parse the response as JSON
-            .then(syncData => {
-                syncData.forEach((item) => {
-                    //initializaion of gray text[not highlighted]
-                    const spanTag = document.createElement("span");
-                    spanTag.innerText = item.text;
-                    textContainer.appendChild(spanTag);
-                });
 
-                players.addEventListener('timeupdate', () => {
-                    //Highlights text when the player is working
-                    const currentTime = players.currentTime;
-                    syncData.forEach((item, index) => {
-                        const spanTag = textContainer.children[index];
-                        if (currentTime >= item.startTime) {
-                            spanTag.classList.add('active');
-                        } else {
-                            // Remove 'active' class if the player is reversed past this point
-                            spanTag.classList.remove('active');
-                        }
-                    });
-                });
-            });
-    </script> -->
+    <div id="page6">
+        <div id="footer-top">
+          <div id="footer-socials">
+            <div id="footer-media">
+             <a href="https://www.instagram.com/vp_vidyalankar/" style="text-decoration: none; color: #fff;"> <i class="fa-brands fa-instagram fa-2x" ></i></a>
+             <a href="https://www.linkedin.com/in/vidyalankarpolytechnic/" style="text-decoration: none; color: #fff;"><i class="fa-brands fa-linkedin"></i></a> 
+             <a href="https://x.com/VidyalankarPoly" style="text-decoration: none; color: #fff;"><i class="fa-brands fa-x-twitter"></i></a> 
+            </div>
+
+            <div id="footer-copyrights">
+              <h4 id="content201">© 2025 Vidyalankar Polytechnic. All Rights Reserved.</h4>
+            </div>
+
+            <div id="footer-links">
+              <a href="privacypolicy.html" id="content202">Privacy Policy</a>
+              <a href="gallery.html" id="content203">Gallery</a>
+            </div>
+          </div>
+          <div id="footer-description">
+            <p id="content204">
+              Volunteering is at the very core of being a human. No one has made it through life without someone else's help. — Heather French Henry
+            </p>
+          </div>
+        </div>
+
+        <div id="footer-down">
+
+          <div class="group1">
+            <img src="All domains Images/All Logos/5.png" alt="" class="footer-down-image" />
+          <img src="All domains Images/All Logos/4.png" alt="" class="footer-down-image"/>
+          <h6 id="content205">Inovators</h6>
+          </div>
+          <!-- <img src="All domains Images/All Logos/1.png" alt="" /> -->
+
+          <div class="group2">
+            <h6 id="content206">Sponcers</h6>
+            <img src="images/redbox logo.png" alt="" class="footer-down-image"  />
+            <img src="images/dads in town logo.png" alt="" class="footer-down-image"  />
+        </div>
+      </div>
+
+      <!-- footer section end -->
+
+      <!-- Page 5 transparent for footer -->
+
+      <!-- <div id="page5"></div> -->
+      <!-- Page 5 transparent for footer -->
+    </div>
+</div>
+
+  <script>
+    const audioPlayer = document.getElementById("audio-player");
+    const subtitleInputs = document.getElementById("subtitle-inputs");
+    const subtitleList = document.getElementById("subtitle-list");
+    const addSubtitleButton = document.getElementById("add-subtitle");
+
+    let subtitleCount = 0;
+
+    // Function to create a new subtitle input
+    function createSubtitleInput(start, end) {
+      const inputContainer = document.createElement("div");
+      inputContainer.classList.add("subtitle-input-group");
+
+      inputContainer.innerHTML = `
+        <label for="subtitle-${subtitleCount}">Subtitle ${subtitleCount + 1} (${start}-${end}s):</label>
+        <input type="text" id="subtitle-${subtitleCount}" class="subtitle-input" placeholder="Enter subtitle" data-start="${start}" data-end="${end}" required/>
+      `;
+
+      // Add event listener to play specific segment when on focus
+      const input = inputContainer.querySelector(".subtitle-input");
+      input.addEventListener("focus", () => {
+        audioPlayer.currentTime = start;
+
+        // Wait for the browser to update before playing
+        setTimeout(() => {
+          audioPlayer.play();
+        }, 100); // Small delay to ensure seeking takes effect
+
+        console.log(start, end);
+
+        // Stop playback after the segment ends
+        const playbackInterval = setInterval(() => {
+          if (audioPlayer.currentTime >= end) {
+            audioPlayer.pause();
+            clearInterval(playbackInterval);
+          }
+        }, 100);
+      });
+
+      subtitleInputs.appendChild(inputContainer);
+    }
+
+    // Add subtitle button event listener
+    addSubtitleButton.addEventListener("click", () => {
+      const start = subtitleCount * 10;
+      const end = start + 10;
+      createSubtitleInput(start, end);
+
+      // Add subtitle preview item
+      const listItem = document.createElement("li");
+      listItem.textContent = `Subtitle ${subtitleCount + 1} (${start}-${end}s)`;
+      listItem.id = `subtitle-preview-${subtitleCount}`;
+      subtitleList.appendChild(listItem);
+
+      subtitleCount++;
+    });
+
+    // Submit handler
+    document.getElementById("audio-subtitle-form").addEventListener("submit", async (event) => {
+      event.preventDefault();
+
+      const subtitles = [];
+      document.querySelectorAll(".subtitle-input").forEach((input) => {
+        const startTime = input.dataset.start;
+        const end = input.dataset.end;
+        const text = input.value + ' ';
+        subtitles.push({ startTime, end, text });
+      });
+
+      const audioFileName = document.getElementById('audio_file_name').innerText;
+
+      try {
+        const response = await fetch('/user/save-subtitles', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            bookTitle: audioFileName,
+            subtitles: subtitles
+          }),
+        });
+
+        if (response.ok) {
+          alert("Subtitles saved successfully!");
+        } else {
+          alert("Failed to save subtitles.");
+        }
+      } catch (error) {
+        console.error("Error saving subtitles:", error);
+        alert("An error occurred while saving subtitles.");
+      }
+    });
+  </script>
+     <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+     <script src="https://files.bpcontent.cloud/2025/01/15/19/20250115191515-LBSDTJT5.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script> 
+     <script src="javascript_files/test.js"></script>
+     <script src="javascript_files/menu.js"></script>
+     <script src="javascript_files/resource.js"></script>
+     <script src="javascript_files/loginStatus.js"></script>
+     <script src="javascript_files/lenis.js"></script>
+
 </body>
 
 </html>

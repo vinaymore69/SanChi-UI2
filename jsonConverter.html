@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form id="jsonForm">
+    <label>Enter JSON to Convert:</label>
+    <br />
+    <input type="text" id="fileName" placeholder="Enter File Here" />
+    <br>
+    <textarea id="jsonInput" placeholder="Enter JS Object here" ></textarea>
+    <br>
+    <input type="submit" value="Convert" />
+  </form>
+
+
+  <script>
+    function download(content, fileName, contentType) {
+      var a = document.createElement("a");
+      var file = new Blob([content], { type: contentType });
+      a.href = URL.createObjectURL(file);
+      a.download = fileName;
+      a.click();
+    }
+
+    function convertAndDownload(fileName, content) {
+      const jsonData = JSON.stringify(content);
+      download(jsonData, fileName, 'application/json');
+    }
+
+    const jsonForm = document.getElementById("jsonForm");
+    jsonForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      const fileName = document.getElementById("fileName").value;
+      const jsonInput = document.getElementById("jsonInput").value;
+
+      convertAndDownload(fileName,jsonInput);
+    });
+  </script>
+</body>
+</html>

@@ -354,7 +354,7 @@ nav{
 #btn-back-to-top {
     position: fixed;
     bottom: 7vw;
-    right: 1.9vw;
+    right: 1.5vw;
     display: none;
     z-index: 999999999;
     background-color: rgba(204, 255, 211, 0.511);
@@ -375,5 +375,10 @@ nav{
 #btn-back-to-top:hover {
     background-color: #1d6d3c;
     color: white;
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
 }
 /* back top end */

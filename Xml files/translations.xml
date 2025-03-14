@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+  <translations>
+    <language name="english">
+      <content id="content1">Volunteering is the key to empowering communities and creating a brighter future for all.</content>
+      <content id="content2">Vidyalankar <br />Volunteering <br /> Committee</content>
+      <content id="content3">
+        <![CDATA[
+        Vidyalankar Volunteering Committee is dedicated to creating a positive impact in society by encouraging students to engage in various volunteering activities. <br/>
+        These activities not only help students learn about global issues but also allow them to contribute to the community and bring positive changes to people's lives.
+        ]]>
+      </content>
+      <!-- More content items as needed -->
+    </language>
+    <language name="hindi">
+      <content id="content1">स्वयंसेवा समुदायों को सशक्त बनाने और सभी के लिए उज्जवल भविष्य बनाने की कुंजी है।</content>
+      <content id="content2">विद्यालंकार <br> स्वयंसेवी <br> समिति</content>
+      <content id="content3">
+        <![CDATA[
+        विद्यालंकार स्वयंसेवी समिति छात्रों को विभिन्न स्वयंसेवी गतिविधियों में भाग लेने के लिए प्रोत्साहित करके समाज में सकारात्मक प्रभाव पैदा करने के लिए समर्पित है।
+        ]]>
+      </content>
+      <!-- More content items as needed -->
+    </language>
+    <language name="marathi">
+      <content id="content1">स्वयंसेवा ही समाजाला सशक्त बनवण्याची आणि सर्वांसाठी उज्ज्वल भविष्य घडवण्याची किल्ली आहे</content>
+      <content id="content2">विद्यालंकार <br> स्वयंसेवा <br> समिती</content>
+      <content id="content3">
+        <![CDATA[
+        विद्यालंकार स्वयंसेवा समिती विद्यार्थ्यांना विविध स्वयंसेवा उपक्रमांमध्ये सहभागी होण्यास प्रोत्साहित करून समाजात सकारात्मक प्रभाव निर्माण करण्यासाठी समर्पित आहे.
+        ]]>
+      </content>
+      <!-- More content items as needed -->
+    </language>
+  </translations>
+</page>

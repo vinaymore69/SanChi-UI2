@@ -46,9 +46,6 @@ var swiper = new Swiper(".mySwiper", {
 
 
 
-// language area
-
-
 const content = {
     english: {
         // content0: 'SanChi',
@@ -212,9 +209,6 @@ The committee collaborates with different NGOs to focus on important areas like 
         content34: "06: पर्यावरण",
         content35: "07: डिजिटल साक्षरता",
         content36: "08: मादक द्रव्य निरोधक",
-
-
-
         content201: `© २०२५ विद्यालंकार पॉलिटेक्निक. सर्व हक्क राखीव`,
         content202: `गोपनीयता धोरण`,
         content203: `गॅलरी`,
@@ -223,6 +217,10 @@ The committee collaborates with different NGOs to focus on important areas like 
         content206: `प्रायोजक`,
     }
 };
+  
+
+
+
 
 
 

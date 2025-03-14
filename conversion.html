@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Admin - Update Page Content</title>
+  <style>
+    label, select, input, textarea, button {
+      display: block;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Admin - Update Content</h1>
+
+  <!-- Select which page's JSON file to edit -->
+  <label for="pageSelect">Select Page (JSON file):</label>
+  <select id="pageSelect">
+    <option value="/jsonfiles/contact.json">Contact Page</option>
+    <option value="/jsonfiles/about.json">About Page</option>
+  </select>
+
+  <!-- Select language -->
+  <label for="languageSelect">Select Language:</label>
+  <select id="languageSelect">
+    <option value="english">English</option>
+    <option value="hindi">Hindi</option>
+    <option value="marathi">Marathi</option>
+  </select>
+
+  <!-- Specify the content element ID -->
+  <label for="contentId">Content ID (e.g., content1):</label>
+  <input type="text" id="contentId" placeholder="Enter content ID" />
+
+  <!-- Button to load the current content -->
+  <button id="loadContent">Load Content</button>
+
+  <!-- Text area to display/edit the content -->
+  <label for="contentText">Content:</label>
+  <textarea id="contentText" rows="10" cols="50"></textarea>
+
+  <!-- Save button -->
+  <button id="saveContent">Save Content</button>
+
+  <!-- Message area -->
+  <div id="message"></div>
+
+  <script>
+    // Load content from the selected JSON file based on language and content ID
+    document.getElementById('loadContent').addEventListener('click', function () {
+      var page = document.getElementById('pageSelect').value;
+      var lang = document.getElementById('languageSelect').value;
+      var contentId = document.getElementById('contentId').value.trim();
+      
+      if (!contentId) {
+        document.getElementById('message').innerText = "Please enter a content ID.";
+        return;
+      }
+      
+      fetch(page)
+        .then(response => response.json())
+        .then(data => {
+          if (data[lang] && data[lang][contentId]) {
+            document.getElementById('contentText').value = data[lang][contentId];
+            document.getElementById('message').innerText = "Content loaded.";
+          } else {
+            document.getElementById('message').innerText = "Content not found.";
+          }
+        })
+        .catch(error => {
+          document.getElementById('message').innerText = "Error loading JSON: " + error;
+        });
+    });
+
+    // Save the updated content by sending data to a server-side endpoint
+    document.getElementById('saveContent').addEventListener('click', function () {
+      var page = document.getElementById('pageSelect').value;
+      var lang = document.getElementById('languageSelect').value;
+      var contentId = document.getElementById('contentId').value.trim();
+      var newContent = document.getElementById('contentText').value;
+
+      if (!contentId) {
+        document.getElementById('message').innerText = "Content ID cannot be empty.";
+        return;
+      }
+
+    });
+  </script>
+</body>
+
+</html>
